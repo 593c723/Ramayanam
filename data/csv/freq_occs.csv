@@ -1,0 +1,1153 @@
+Source,Target,Weight,Canto,Book
+dushan,rama,1,Canto I. Nárad.,Book I.
+maricha,rama,1,Canto I. Nárad.,Book I.
+rama,jatayu,1,Canto I. Nárad.,Book I.
+sugriva,bali,2,Canto I. Nárad.,Book I.
+rama,sugriva,2,Canto I. Nárad.,Book I.
+bali,sugriva,1,Canto I. Nárad.,Book I.
+rama,bali,1,Canto I. Nárad.,Book I.
+sugriva,rama,1,Canto I. Nárad.,Book I.
+ravan,vibhishan,1,Canto I. Nárad.,Book I.
+ravan,sita,1,Canto I. Nárad.,Book I.
+vibhishan,sita,1,Canto I. Nárad.,Book I.
+rama,narad,1,Canto II. Brahmá's Visit,Book I.
+rama,kaikeyi,1,Canto III. The Argument.,Book I.
+bharat,nandigrama,1,Canto III. The Argument.,Book I.
+bharat,rama,2,Canto III. The Argument.,Book I.
+bharat,dandak,1,Canto III. The Argument.,Book I.
+bharat,anasuya,1,Canto III. The Argument.,Book I.
+nandigrama,rama,1,Canto III. The Argument.,Book I.
+nandigrama,dandak,1,Canto III. The Argument.,Book I.
+nandigrama,anasuya,1,Canto III. The Argument.,Book I.
+rama,dandak,1,Canto III. The Argument.,Book I.
+rama,anasuya,1,Canto III. The Argument.,Book I.
+dandak,anasuya,1,Canto III. The Argument.,Book I.
+indra,agastya,1,Canto III. The Argument.,Book I.
+indra,rama,1,Canto III. The Argument.,Book I.
+indra,viradha,1,Canto III. The Argument.,Book I.
+agastya,rama,1,Canto III. The Argument.,Book I.
+agastya,viradha,1,Canto III. The Argument.,Book I.
+rama,viradha,1,Canto III. The Argument.,Book I.
+panchavata,surpanakha,1,Canto III. The Argument.,Book I.
+panchavata,ravan,1,Canto III. The Argument.,Book I.
+panchavata,maricha,1,Canto III. The Argument.,Book I.
+surpanakha,ravan,1,Canto III. The Argument.,Book I.
+surpanakha,maricha,1,Canto III. The Argument.,Book I.
+ravan,maricha,1,Canto III. The Argument.,Book I.
+rama,vulture-king,2,Canto III. The Argument.,Book I.
+rama,kabandha,2,Canto III. The Argument.,Book I.
+rama,pampa,2,Canto III. The Argument.,Book I.
+vulture-king,kabandha,1,Canto III. The Argument.,Book I.
+vulture-king,pampa,1,Canto III. The Argument.,Book I.
+kabandha,pampa,1,Canto III. The Argument.,Book I.
+bali,sugriva,4,Canto III. The Argument.,Book I.
+hanuman,mainaka,2,Canto III. The Argument.,Book I.
+hanuman,lanka,3,Canto III. The Argument.,Book I.
+mainaka,lanka,1,Canto III. The Argument.,Book I.
+sita,hanuman,1,Canto III. The Argument.,Book I.
+rama,nala,1,Canto III. The Argument.,Book I.
+vibhishan,kumbhakarna,1,Canto III. The Argument.,Book I.
+vibhishan,meghanada,1,Canto III. The Argument.,Book I.
+kumbhakarna,meghanada,1,Canto III. The Argument.,Book I.
+ravan,sita,1,Canto III. The Argument.,Book I.
+ravan,vibhishan,1,Canto III. The Argument.,Book I.
+ravan,pushpak,1,Canto III. The Argument.,Book I.
+ravan,brahma,1,Canto III. The Argument.,Book I.
+sita,vibhishan,1,Canto III. The Argument.,Book I.
+sita,pushpak,1,Canto III. The Argument.,Book I.
+sita,brahma,1,Canto III. The Argument.,Book I.
+vibhishan,pushpak,1,Canto III. The Argument.,Book I.
+vibhishan,brahma,1,Canto III. The Argument.,Book I.
+pushpak,brahma,1,Canto III. The Argument.,Book I.
+rama,valmiki,1,Canto III. The Argument.,Book I.
+indra,manu,1,Canto VI. The King.,Book I.
+dasaratha,indra,1,Canto VI. The King.,Book I.
+dhrishti,siddharth,1,Canto VII. The Ministers.,Book I.
+dhrishti,arthasadhak,1,Canto VII. The Ministers.,Book I.
+dhrishti,dharmapal,1,Canto VII. The Ministers.,Book I.
+dhrishti,asok,1,Canto VII. The Ministers.,Book I.
+siddharth,arthasadhak,1,Canto VII. The Ministers.,Book I.
+siddharth,dharmapal,1,Canto VII. The Ministers.,Book I.
+siddharth,asok,1,Canto VII. The Ministers.,Book I.
+arthasadhak,dharmapal,1,Canto VII. The Ministers.,Book I.
+arthasadhak,asok,1,Canto VII. The Ministers.,Book I.
+dharmapal,asok,1,Canto VII. The Ministers.,Book I.
+vibhandak,rishyasring,1,Canto IX. Rishyasring.,Book I.
+santa,dasaratha,1,Canto X. Rishyasring Invited.,Book I.
+dasaratha,santa,1,Canto X. Rishyasring Invited.,Book I.
+sumantra,vasishtha,1,Canto XI. The Sacrifice Decreed.,Book I.
+sumantra,vamadeva,1,Canto XI. The Sacrifice Decreed.,Book I.
+vasishtha,vamadeva,1,Canto XI. The Sacrifice Decreed.,Book I.
+rishyasring,vasishtha,1,Canto XI. The Sacrifice Decreed.,Book I.
+rishyasring,indra,1,Canto XIII. The Sacrifice Finished.,Book I.
+chatushtom,ukthya,1,Canto XIII. The Sacrifice Finished.,Book I.
+aptoryam,abhijit,1,Canto XIII. The Sacrifice Finished.,Book I.
+aptoryam,visvajit,1,Canto XIII. The Sacrifice Finished.,Book I.
+abhijit,visvajit,1,Canto XIII. The Sacrifice Finished.,Book I.
+madhu,ravan,1,Canto XIV. Rávan Doomed.,Book I.
+sumitra,kaikeyi,1,Canto XV. The Nectar.,Book I.
+gandhamadan,nala,1,Canto XVI. The Vánars.,Book I.
+gandhamadan,nila,1,Canto XVI. The Vánars.,Book I.
+nala,nila,1,Canto XVI. The Vánars.,Book I.
+dwivida,mainda,1,Canto XVI. The Vánars.,Book I.
+vasishtha,santa,1,Canto XVII. Rishyasring's Return.,Book I.
+sumitra,santa,1,Canto XVII. Rishyasring's Return.,Book I.
+aditi,ravan,1,Canto XIX. The Birth Of The Princes.,Book I.
+kaikeyi,bharat,1,Canto XIX. The Birth Of The Princes.,Book I.
+vishnu,sumitra,1,Canto XIX. The Birth Of The Princes.,Book I.
+vishnu,lakshman,1,Canto XIX. The Birth Of The Princes.,Book I.
+sumitra,lakshman,1,Canto XIX. The Birth Of The Princes.,Book I.
+kaikeyi,sumitra,1,Canto XIX. The Birth Of The Princes.,Book I.
+lakshman,rama,2,Canto XIX. The Birth Of The Princes.,Book I.
+rama,vasishtha,2,Canto XXI. Visvámitra's Speech.,Book I.
+maricha,suvahu,1,Canto XXII. Dasaratha's Speech.,Book I.
+vasishtha,rama,2,Canto XXIV. The Spells.,Book I.
+vasishtha,lakshman,2,Canto XXIV. The Spells.,Book I.
+rama,lakshman,3,Canto XXIV. The Spells.,Book I.
+rama,lakshman,1,Canto XXV. The Hermitage Of Love.,Book I.
+rama,lakshman,2,Canto XXVI. The Forest Of Tádaká.,Book I.
+brahma,ganga,1,Canto XXVI. The Forest Of Tádaká.,Book I.
+sunda,maricha,1,Canto XXVII. The Birth Of Tádaká.,Book I.
+tadaka,lakshman,1,Canto XXVIII. The Death Of Tádaká.,Book I.
+rama,dasaratha,1,Canto XXVIII. The Death Of Tádaká.,Book I.
+bali,indra,2,Canto XXXI. The Perfect Hermitage.,Book I.
+indra,vishnu,1,Canto XXXI. The Perfect Hermitage.,Book I.
+rama,indra,1,Canto XXXII. Visvámitra's Sacrifice.,Book I.
+visvamitra,raghu,1,Canto XXXII. Visvámitra's Sacrifice.,Book I.
+visvamitra,rama,1,Canto XXXIII. The Sone.,Book I.
+rama,lakshman,1,Canto XXXIII. The Sone.,Book I.
+kampili,indra,1,Canto XXXIV. Brahmadatta.,Book I.
+kampili,kusanabha,1,Canto XXXIV. Brahmadatta.,Book I.
+indra,kusanabha,1,Canto XXXIV. Brahmadatta.,Book I.
+kusanabha,gadhi,1,Canto XXXV. Visvámitra's Lineage.,Book I.
+gadhi,rama,1,Canto XXXV. Visvámitra's Lineage.,Book I.
+rama,ganga,1,Canto XXXVI. The Birth Of Gangá.,Book I.
+ganga,uma,1,Canto XXXVI. The Birth Of Gangá.,Book I.
+ayodhya,sagar,1,Canto XXXIX. The Sons Of Sagar.,Book I.
+ansuman,sagar,1,Canto XL. The Cleaving Of The Earth.,Book I.
+sagar,ansuman,1,Canto XLIII. Bhagírath.,Book I.
+bhagirath,dilipa,1,Canto XLIII. Bhagírath.,Book I.
+nalini,sita,1,Canto XLIV. The Descent Of Gangá.,Book I.
+bhagirath,ganga,2,Canto XLIV. The Descent Of Gangá.,Book I.
+ganga,jahnavi,1,Canto XLIV. The Descent Of Gangá.,Book I.
+suras,asurs,1,Canto XLV. The Quest Of The Amrit.,Book I.
+suras,titan,1,Canto XLV. The Quest Of The Amrit.,Book I.
+asurs,titan,1,Canto XLV. The Quest Of The Amrit.,Book I.
+visala,suchandra,1,Canto XLVII. Sumati.,Book I.
+indra,ahalya,1,Canto XLVIII. Indra And Ahalyá,Book I.
+gautam,indra,1,Canto XLVIII. Indra And Ahalyá,Book I.
+rama,raghu,1,Canto XLIX. Ahalyá Freed.,Book I.
+rama,ahalya,1,Canto XLIX. Ahalyá Freed.,Book I.
+visvamitra,satananda,1,Canto L. Janak.,Book I.
+renuka,rama,1,Canto LI. Visvámitra.,Book I.
+renuka,satananda,1,Canto LI. Visvámitra.,Book I.
+rama,satananda,1,Canto LI. Visvámitra.,Book I.
+barbars,sakas,1,Canto LV. The Hermitage Burnt.,Book I.
+vasishtha,trisanku,1,Canto LVII. Trisanku.,Book I.
+sunahsepha,visvamitra,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+indra,upendra,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+indra,thousand-eyed,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+indra,sunahsepha,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+upendra,thousand-eyed,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+upendra,sunahsepha,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+thousand-eyed,sunahsepha,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+indra,visvamitra,1,Canto LXII. Ambarísha's Sacrifice.,Book I.
+devarat,nimi,1,Canto LXVI. Janak's Speech.,Book I.
+rudra,daksha,1,Canto LXVI. Janak's Speech.,Book I.
+vamadeva,visvamitra,1,Canto LXVIII. The Envoys' Speech.,Book I.
+rama,lakshman,1,Canto LXIX. Dasaratha's Visit.,Book I.
+rama,visvamitra,1,Canto LXIX. Dasaratha's Visit.,Book I.
+lakshman,visvamitra,1,Canto LXIX. Dasaratha's Visit.,Book I.
+mithila,janak,1,Canto LXX. The Maidens Sought.,Book I.
+ayodhya,mithila,1,Canto LXX. The Maidens Sought.,Book I.
+marichi,kasyap,1,Canto LXX. The Maidens Sought.,Book I.
+marichi,vivasvat,1,Canto LXX. The Maidens Sought.,Book I.
+marichi,manu,1,Canto LXX. The Maidens Sought.,Book I.
+kasyap,vivasvat,1,Canto LXX. The Maidens Sought.,Book I.
+kasyap,manu,1,Canto LXX. The Maidens Sought.,Book I.
+vivasvat,manu,1,Canto LXX. The Maidens Sought.,Book I.
+ikshvaku,kukshi,1,Canto LXX. The Maidens Sought.,Book I.
+dhruvasandhi,bharat,1,Canto LXX. The Maidens Sought.,Book I.
+dhruvasandhi,asit,2,Canto LXX. The Maidens Sought.,Book I.
+bharat,asit,2,Canto LXX. The Maidens Sought.,Book I.
+sagar,asamanj,1,Canto LXX. The Maidens Sought.,Book I.
+sagar,ansuman,1,Canto LXX. The Maidens Sought.,Book I.
+sagar,dilipa,1,Canto LXX. The Maidens Sought.,Book I.
+sagar,bhagirath,1,Canto LXX. The Maidens Sought.,Book I.
+asamanj,ansuman,1,Canto LXX. The Maidens Sought.,Book I.
+asamanj,dilipa,1,Canto LXX. The Maidens Sought.,Book I.
+asamanj,bhagirath,1,Canto LXX. The Maidens Sought.,Book I.
+ansuman,dilipa,1,Canto LXX. The Maidens Sought.,Book I.
+ansuman,bhagirath,1,Canto LXX. The Maidens Sought.,Book I.
+dilipa,bhagirath,1,Canto LXX. The Maidens Sought.,Book I.
+maru,ambarisha,1,Canto LXX. The Maidens Sought.,Book I.
+maru,nahush,2,Canto LXX. The Maidens Sought.,Book I.
+ambarisha,nahush,2,Canto LXX. The Maidens Sought.,Book I.
+nabhag,dasaratha,2,Canto LXX. The Maidens Sought.,Book I.
+nabhag,rama,2,Canto LXX. The Maidens Sought.,Book I.
+dasaratha,rama,1,Canto LXX. The Maidens Sought.,Book I.
+maharoma,swarnaroma,1,Canto LXXI. Janak's Pedigree.,Book I.
+rama,urmila,1,Canto LXXI. Janak's Pedigree.,Book I.
+bharat,satrughna,2,Canto LXXII. The Gift Of Kine.,Book I.
+dasaratha,ayodhya,1,Canto LXXII. The Gift Of Kine.,Book I.
+dasaratha,vasishtha,1,Canto LXXIII. The Nuptials.,Book I.
+janak,vasishtha,1,Canto LXXIII. The Nuptials.,Book I.
+vasishtha,satananda,1,Canto LXXIII. The Nuptials.,Book I.
+vasishtha,janak,1,Canto LXXIII. The Nuptials.,Book I.
+vasishtha,rama,1,Canto LXXIII. The Nuptials.,Book I.
+janak,rama,1,Canto LXXIII. The Nuptials.,Book I.
+lakshman,urmila,1,Canto LXXIII. The Nuptials.,Book I.
+tripura,vishnu,1,Canto LXXV. The Parle.,Book I.
+siva,vishnu,2,Canto LXXV. The Parle.,Book I.
+vishnu,siva,1,Canto LXXV. The Parle.,Book I.
+vishnu,devarat,1,Canto LXXV. The Parle.,Book I.
+siva,devarat,1,Canto LXXV. The Parle.,Book I.
+richika,vishnu,1,Canto LXXV. The Parle.,Book I.
+sumitra,kaikeyi,1,Canto LXXVII. Bharat's Departure.,Book I.
+kaikeyi,yudhajit,1,Canto LXXVII. Bharat's Departure.,Book I.
+bharat,satrughna,1,Canto LXXVII. Bharat's Departure.,Book I.
+rama,lakshman,2,Canto LXXVII. Bharat's Departure.,Book I.
+kausalya,vishnu,1,Canto LXXVII. Bharat's Departure.,Book I.
+kausalya,lakshmi,1,Canto LXXVII. Bharat's Departure.,Book I.
+vishnu,lakshmi,1,Canto LXXVII. Bharat's Departure.,Book I.
+bharat,satrughna,3,Canto I. The Heir Apparent.,BOOK II.
+rama,indra,1,Canto II. The People's Speech.,BOOK II.
+rama,vamadeva,1,Canto III. Dasaratha's Precepts.,BOOK II.
+chaitra,rama,1,Canto III. Dasaratha's Precepts.,BOOK II.
+rama,sumantra,1,Canto III. Dasaratha's Precepts.,BOOK II.
+rama,sumantra,1,Canto IV. Ráma Summoned.,BOOK II.
+sumitra,lakshman,1,Canto IV. Ráma Summoned.,BOOK II.
+sumitra,sita,1,Canto IV. Ráma Summoned.,BOOK II.
+lakshman,sita,1,Canto IV. Ráma Summoned.,BOOK II.
+vasishtha,rama,2,Canto V. Ráma's Fast.,BOOK II.
+vasishtha,videhan,1,Canto V. Ráma's Fast.,BOOK II.
+rama,videhan,1,Canto V. Ráma's Fast.,BOOK II.
+vrihaspati,vasishtha,1,Canto V. Ráma's Fast.,BOOK II.
+manthara,ayodhya,1,Canto VII. Manthará's Lament.,BOOK II.
+dasaratha,rama,1,Canto VII. Manthará's Lament.,BOOK II.
+dasaratha,bharat,1,Canto VII. Manthará's Lament.,BOOK II.
+rama,kaikeyi,1,Canto VIII. Manthará's Speech.,BOOK II.
+rama,bharat,1,Canto VIII. Manthará's Speech.,BOOK II.
+satrughna,lakshman,1,Canto VIII. Manthará's Speech.,BOOK II.
+satrughna,rama,1,Canto VIII. Manthará's Speech.,BOOK II.
+lakshman,rama,3,Canto VIII. Manthará's Speech.,BOOK II.
+bharat,rama,1,Canto IX. The Plot.,BOOK II.
+angas,vangas,1,Canto X. Dasaratha's Speech.,BOOK II.
+angas,magadh,1,Canto X. Dasaratha's Speech.,BOOK II.
+vangas,magadh,1,Canto X. Dasaratha's Speech.,BOOK II.
+rama,bharat,2,Canto XII. Dasaratha's Lament.,BOOK II.
+rama,kausalya,1,Canto XII. Dasaratha's Lament.,BOOK II.
+bharat,rama,1,Canto XII. Dasaratha's Lament.,BOOK II.
+rama,videhan,1,Canto XII. Dasaratha's Lament.,BOOK II.
+rama,sita,1,Canto XII. Dasaratha's Lament.,BOOK II.
+indra,rama,1,Canto XII. Dasaratha's Lament.,BOOK II.
+rama,lakshman,1,Canto XII. Dasaratha's Lament.,BOOK II.
+rama,sumantra,1,Canto XV. The Preparations.,BOOK II.
+rama,sumantra,1,Canto XVI. Ráma Summoned.,BOOK II.
+rama,lakshman,1,Canto XVI. Ráma Summoned.,BOOK II.
+kausalya,lakshman,1,Canto XXI. Kausalyá Calmed.,BOOK II.
+kausalya,rama,1,Canto XXI. Kausalyá Calmed.,BOOK II.
+lakshman,rama,1,Canto XXI. Kausalyá Calmed.,BOOK II.
+rama,lakshman,1,Canto XXI. Kausalyá Calmed.,BOOK II.
+rama,lakshman,1,Canto XXIII. Lakshman's Anger.,BOOK II.
+kaikeyi,bharat,1,Canto XXIII. Lakshman's Anger.,BOOK II.
+dandak,rama,1,Canto XXV. Kausalyá's Blessing.,BOOK II.
+indra,vinata,1,Canto XXV. Kausalyá's Blessing.,BOOK II.
+indra,daitya,1,Canto XXV. Kausalyá's Blessing.,BOOK II.
+indra,aditi,1,Canto XXV. Kausalyá's Blessing.,BOOK II.
+daitya,aditi,1,Canto XXV. Kausalyá's Blessing.,BOOK II.
+bharat,satrughna,1,Canto XXVI. Alone With Sítá.,BOOK II.
+lakshman,rama,2,Canto XXXI. Lakshman's Prayer.,BOOK II.
+sita,kausalya,1,Canto XXXI. Lakshman's Prayer.,BOOK II.
+rama,lakshman,1,Canto XXXI. Lakshman's Prayer.,BOOK II.
+raghu,suyajna,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+rama,sita,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+rama,lakshman,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+rama,brahma,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+lakshman,brahma,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+kausalya,lakshman,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+rama,trijat,1,Canto XXXII. The Gift Of The Treasures.,BOOK II.
+sumantra,rama,2,Canto XXXIV. Ráma In The Palace.,BOOK II.
+dandak,lakshman,1,Canto XXXIV. Ráma In The Palace.,BOOK II.
+dandak,sita,1,Canto XXXIV. Ráma In The Palace.,BOOK II.
+lakshman,sita,1,Canto XXXIV. Ráma In The Palace.,BOOK II.
+rama,lakshman,1,Canto XXXIV. Ráma In The Palace.,BOOK II.
+rama,ayodhya,1,Canto XXXVI. Siddhárth's Speech.,BOOK II.
+kaikeyi,asamanj,1,Canto XXXVI. Siddhárth's Speech.,BOOK II.
+sita,rama,1,Canto XXXVII. The Coats Of Bark.,BOOK II.
+kaikeyi,sita,1,Canto XXXVIII. Care For Kausalyá,BOOK II.
+lakshman,rama,1,Canto XL. Ráma's Departure.,BOOK II.
+sita,sumitra,1,Canto XL. Ráma's Departure.,BOOK II.
+rama,dasaratha,2,Canto XL. Ráma's Departure.,BOOK II.
+rama,sita,1,Canto XL. Ráma's Departure.,BOOK II.
+dasaratha,sita,1,Canto XL. Ráma's Departure.,BOOK II.
+sumitra,rama,1,Canto XL. Ráma's Departure.,BOOK II.
+rama,lakshman,1,Canto XL. Ráma's Departure.,BOOK II.
+sumantra,raghu,1,Canto XL. Ráma's Departure.,BOOK II.
+jupiter,mercury,1,Canto XLI. The Citizens' Lament.,BOOK II.
+jupiter,mars,1,Canto XLI. The Citizens' Lament.,BOOK II.
+mercury,mars,1,Canto XLI. The Citizens' Lament.,BOOK II.
+ayodhya,rama,1,Canto XLI. The Citizens' Lament.,BOOK II.
+kausalya,rama,1,Canto XLII. Dasaratha's Lament.,BOOK II.
+rama,sita,1,Canto XLIII. Kausalyá's Lament.,BOOK II.
+kausalya,sumitra,1,Canto XLIV. Sumitrá's Speech.,BOOK II.
+ayodhya,sita,1,Canto XLIV. Sumitrá's Speech.,BOOK II.
+ayodhya,lakshmi,1,Canto XLIV. Sumitrá's Speech.,BOOK II.
+sita,lakshmi,1,Canto XLIV. Sumitrá's Speech.,BOOK II.
+sumitra,kausalya,1,Canto XLIV. Sumitrá's Speech.,BOOK II.
+rama,sita,1,Canto XLV. The Tamasá.,BOOK II.
+rama,lakshman,1,Canto XLV. The Tamasá.,BOOK II.
+sita,lakshman,1,Canto XLV. The Tamasá.,BOOK II.
+tamasa,sumantra,1,Canto XLV. The Tamasá.,BOOK II.
+sita,lakshman,1,Canto XLVI. The Halt.,BOOK II.
+bharat,satrughna,1,Canto XLVI. The Halt.,BOOK II.
+rama,lakshman,2,Canto XLVI. The Halt.,BOOK II.
+lakshman,sumantra,1,Canto XLVI. The Halt.,BOOK II.
+rama,sumantra,1,Canto XLVI. The Halt.,BOOK II.
+raghu,sumantra,1,Canto XLVI. The Halt.,BOOK II.
+videhan,manu,1,Canto XLIX. The Crossing Of The Rivers.,BOOK II.
+videhan,ikshvaku,1,Canto XLIX. The Crossing Of The Rivers.,BOOK II.
+manu,ikshvaku,1,Canto XLIX. The Crossing Of The Rivers.,BOOK II.
+kosala,ayodhya,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+lakshman,rama,2,Canto L. The Halt Under The Ingudí.,BOOK II.
+lakshman,sita,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+rama,sita,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+sumantra,rama,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+rama,lakshman,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+guha,lakshman,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+guha,rama,1,Canto L. The Halt Under The Ingudí.,BOOK II.
+rama,sita,1,Canto LI. Lakshman's Lament.,BOOK II.
+rama,lakshman,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+rama,sumantra,2,Canto LII. The Crossing Of Gangá.,BOOK II.
+guha,rama,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+guha,lakshman,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+sita,lakshman,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+sumantra,rama,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+lakshman,sita,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+sita,sumantra,1,Canto LII. The Crossing Of Gangá.,BOOK II.
+lakshman,kaikeyi,1,Canto LIII. Ráma's Lament.,BOOK II.
+sita,kausalya,1,Canto LIII. Ráma's Lament.,BOOK II.
+kaikeyi,bharat,1,Canto LIII. Ráma's Lament.,BOOK II.
+lakshman,rama,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+yamuna,ganga,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+rama,janak,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+bharadvaja,rama,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+bharadvaja,prayag,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+rama,sita,1,Canto LIV. Bharadvája's Hermitage.,BOOK II.
+yamuna,ganga,2,Canto LV. The Passage Of Yamuná.,BOOK II.
+rama,videhan,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+rama,sita,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+videhan,sita,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+sita,kalindi,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+kausalya,sumitra,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+kausalya,rama,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+sumitra,rama,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+lakshman,sita,1,Canto LV. The Passage Of Yamuná.,BOOK II.
+sita,rama,1,Canto LVI. Chitrakúta,BOOK II.
+videhan,sita,1,Canto LVI. Chitrakúta,BOOK II.
+rama,lakshman,2,Canto LVI. Chitrakúta,BOOK II.
+lakshman,rama,1,Canto LVI. Chitrakúta,BOOK II.
+rama,sumantra,1,Canto LVII. Sumantra's Return.,BOOK II.
+sumantra,rama,1,Canto LVII. Sumantra's Return.,BOOK II.
+sita,rama,1,Canto LVIII. Ráma's Message.,BOOK II.
+prayag,lakshman,1,Canto LIX. Dasaratha's Lament.,BOOK II.
+raghu,rama,1,Canto LIX. Dasaratha's Lament.,BOOK II.
+kaikeyi,rama,1,Canto LIX. Dasaratha's Lament.,BOOK II.
+lakshman,dandak,1,Canto LX. Kausalyá Consoled.,BOOK II.
+rama,sita,1,Canto LX. Kausalyá Consoled.,BOOK II.
+kaikeyi,sumantra,1,Canto LX. Kausalyá Consoled.,BOOK II.
+rama,kausalya,1,Canto LXI. Kausalyá's Lament.,BOOK II.
+rama,kausalya,1,Canto LXIII. The Hermit's Son.,BOOK II.
+kausalya,sumitra,1,Canto LXV. The Women's Lament.,BOOK II.
+kausalya,kaikeyi,1,Canto LXV. The Women's Lament.,BOOK II.
+bharat,kekaya,1,Canto LXVII. The Praise Of Kings.,BOOK II.
+asvapati,bharat,1,Canto LXX. Bharat's Departure.,BOOK II.
+ganga,bharunda,1,Canto LXXI. Bharat's Return.,BOOK II.
+kutikoshtika,dharmavardhan,1,Canto LXXI. Bharat's Return.,BOOK II.
+kutikoshtika,toran,1,Canto LXXI. Bharat's Return.,BOOK II.
+dharmavardhan,toran,1,Canto LXXI. Bharat's Return.,BOOK II.
+gomati,kalinga,1,Canto LXXI. Bharat's Return.,BOOK II.
+rama,sita,1,Canto LXXII. Bharat's Inquiry.,BOOK II.
+rama,lakshman,1,Canto LXXII. Bharat's Inquiry.,BOOK II.
+sita,lakshman,1,Canto LXXII. Bharat's Inquiry.,BOOK II.
+lakshman,sita,2,Canto LXXII. Bharat's Inquiry.,BOOK II.
+lakshman,rama,1,Canto LXXII. Bharat's Inquiry.,BOOK II.
+sita,rama,1,Canto LXXII. Bharat's Inquiry.,BOOK II.
+kausalya,sumitra,1,Canto LXXIII. Kaikeyí Reproached.,BOOK II.
+satrughna,sita,1,Canto LXXV. The Abjuration.,BOOK II.
+kausalya,sumitra,1,Canto LXXV. The Abjuration.,BOOK II.
+sumitra,raghu,1,Canto LXXV. The Abjuration.,BOOK II.
+rama,lakshman,1,Canto LXXVI. The Funeral.,BOOK II.
+vasishtha,bharat,1,Canto LXXVII. The Gathering Of The Ashes.,BOOK II.
+sumantra,satrughna,1,Canto LXXVII. The Gathering Of The Ashes.,BOOK II.
+satrughna,bharat,1,Canto LXXVIII. Manthará Punished.,BOOK II.
+satrughna,rama,1,Canto LXXVIII. Manthará Punished.,BOOK II.
+kaikeyi,bharat,1,Canto LXXVIII. Manthará Punished.,BOOK II.
+bharat,mandar,1,Canto LXXX. The Way Prepared.,BOOK II.
+vasishtha,bharat,1,Canto LXXXII. The Departure.,BOOK II.
+dilipa,dasaratha,1,Canto LXXXII. The Departure.,BOOK II.
+bharat,sumantra,1,Canto LXXXII. The Departure.,BOOK II.
+kaikeyi,sumitra,1,Canto LXXXIII. The Journey Begun.,BOOK II.
+rama,bharat,2,Canto LXXXIV. Guha's Anger.,BOOK II.
+nishadas,bharat,1,Canto LXXXIV. Guha's Anger.,BOOK II.
+rama,lakshman,1,Canto LXXXIV. Guha's Anger.,BOOK II.
+lakshman,bharat,1,Canto LXXXIV. Guha's Anger.,BOOK II.
+bharat,satrughna,1,Canto LXXXV. Guha And Bharat.,BOOK II.
+guha,bharat,1,Canto LXXXVI. Guha's Speech.,BOOK II.
+guha,lakshman,1,Canto LXXXVI. Guha's Speech.,BOOK II.
+bharat,lakshman,1,Canto LXXXVI. Guha's Speech.,BOOK II.
+ayodhya,bharat,1,Canto LXXXVI. Guha's Speech.,BOOK II.
+guha,bharat,1,Canto LXXXVII. Guha's Story.,BOOK II.
+rama,lakshman,1,Canto LXXXVII. Guha's Story.,BOOK II.
+guha,kausalya,1,Canto LXXXVII. Guha's Story.,BOOK II.
+lakshman,sita,1,Canto LXXXVII. Guha's Story.,BOOK II.
+bharat,rama,2,Canto LXXXVIII. The Ingudí Tree.,BOOK II.
+rama,satrughna,2,Canto LXXXVIII. The Ingudí Tree.,BOOK II.
+rama,ayodhya,2,Canto LXXXVIII. The Ingudí Tree.,BOOK II.
+satrughna,ayodhya,1,Canto LXXXVIII. The Ingudí Tree.,BOOK II.
+raghu,satrughna,1,Canto LXXXIX. The Passage Of Gangá.,BOOK II.
+sringavera,satrughna,1,Canto LXXXIX. The Passage Of Gangá.,BOOK II.
+bharat,guha,1,Canto LXXXIX. The Passage Of Gangá.,BOOK II.
+bharat,kausalya,1,Canto LXXXIX. The Passage Of Gangá.,BOOK II.
+vasishtha,bharat,2,Canto XC. The Hermitage.,BOOK II.
+vasishtha,bharadvaja,1,Canto XC. The Hermitage.,BOOK II.
+bharat,bharadvaja,1,Canto XC. The Hermitage.,BOOK II.
+dasaratha,vasishtha,1,Canto XC. The Hermitage.,BOOK II.
+visvakarma,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+haha,alambusha,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+ghritachi,visvachi,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+ghritachi,hema,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+ghritachi,bhima,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+ghritachi,nagadanta,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+ghritachi,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+visvachi,hema,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+visvachi,bhima,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+visvachi,nagadanta,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+visvachi,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+hema,bhima,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+hema,nagadanta,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+hema,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+bhima,nagadanta,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+bhima,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+nagadanta,indra,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+malaya,dardar,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+gopa,gandharva,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+bharat,misrakesi,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+dandak,bharat,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+dandak,rama,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+bharat,rama,1,Canto XCI. Bharadvája's Feast.,BOOK II.
+bharat,bharadvaja,1,Canto XCII. Bharat's Farewell.,BOOK II.
+aditi,vishnu,1,Canto XCII. Bharat's Farewell.,BOOK II.
+aditi,kausalya,1,Canto XCII. Bharat's Farewell.,BOOK II.
+vishnu,kausalya,1,Canto XCII. Bharat's Farewell.,BOOK II.
+chitrakuta,mandakini,1,Canto XCIII. Chitrakúta In Sight.,BOOK II.
+rama,lakshman,1,Canto XCIII. Chitrakúta In Sight.,BOOK II.
+rama,bharat,1,Canto XCIII. Chitrakúta In Sight.,BOOK II.
+lakshman,bharat,1,Canto XCIII. Chitrakúta In Sight.,BOOK II.
+raghu,videhan,1,Canto XCIV. Chitrakúta.,BOOK II.
+sarju,lakshman,1,Canto XCV. Mandákiní.,BOOK II.
+rama,sita,1,Canto XCVI. The Magic Shaft.,BOOK II.
+rama,videhan,1,Canto XCVI. The Magic Shaft.,BOOK II.
+sita,videhan,1,Canto XCVI. The Magic Shaft.,BOOK II.
+sita,rama,1,Canto XCVI. The Magic Shaft.,BOOK II.
+sita,asoka,1,Canto XCVI. The Magic Shaft.,BOOK II.
+rama,asoka,1,Canto XCVI. The Magic Shaft.,BOOK II.
+siva,uma,1,Canto XCVI. The Magic Shaft.,BOOK II.
+videhan,rama,1,Canto XCVI. The Magic Shaft.,BOOK II.
+rama,sita,1,Canto XCVII. Lakshman's Anger.,BOOK II.
+rama,bharat,1,Canto XCVIII. Lakshman Calmed.,BOOK II.
+bharat,lakshman,1,Canto XCVIII. Lakshman Calmed.,BOOK II.
+lakshman,rama,1,Canto XCVIII. Lakshman Calmed.,BOOK II.
+bharat,satrughna,1,Canto XCIX. Bharat's Approach.,BOOK II.
+bharat,rama,1,Canto XCIX. Bharat's Approach.,BOOK II.
+bharat,satrughna,1,Canto C. The Meeting.,BOOK II.
+bharat,vasishtha,1,Canto C. The Meeting.,BOOK II.
+satrughna,vasishtha,1,Canto C. The Meeting.,BOOK II.
+sumantra,satrughna,1,Canto C. The Meeting.,BOOK II.
+lakshman,bharat,1,Canto C. The Meeting.,BOOK II.
+sumantra,vrihaspati,1,Canto C. The Meeting.,BOOK II.
+sumantra,sukra,1,Canto C. The Meeting.,BOOK II.
+vrihaspati,sukra,1,Canto C. The Meeting.,BOOK II.
+rama,bharat,1,Canto CI. Bharata Questioned.,BOOK II.
+rama,bharat,1,Canto CIII. The Funeral Libation.,BOOK II.
+indra,daitya,1,Canto CIII. The Funeral Libation.,BOOK II.
+bharat,ayodhya,1,Canto CIII. The Funeral Libation.,BOOK II.
+sita,sumantra,1,Canto CIII. The Funeral Libation.,BOOK II.
+vasishtha,indra,1,Canto CIV. The Meeting With The Queens.,BOOK II.
+bharat,mahendra,1,Canto CIV. The Meeting With The Queens.,BOOK II.
+bharat,lakshman,1,Canto CIV. The Meeting With The Queens.,BOOK II.
+bharat,rama,1,Canto CV. Ráma's Speech.,BOOK II.
+rama,bharat,1,Canto CV. Ráma's Speech.,BOOK II.
+vasishtha,indra,1,Canto CVI. Bharat's Speech.,BOOK II.
+lakshman,sita,1,Canto CVII. Ráma's Speech.,BOOK II.
+ayodhya,satrughna,1,Canto CVII. Ráma's Speech.,BOOK II.
+lakshman,ayodhya,1,Canto CVII. Ráma's Speech.,BOOK II.
+javali,rama,1,Canto CIX. The Praises Of Truth.,BOOK II.
+vasishtha,javali,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+marichi,kasyap,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+marichi,vivasvat,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+kasyap,vivasvat,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+ikshvaku,kukshi,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+dhruvasandhi,bharat,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+dhruvasandhi,talajanghas,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+bharat,talajanghas,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+ansuman,dilipa,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+ansuman,bhagirath,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+dilipa,bhagirath,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+raghu,purushadak,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+raghu,sankhan,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+purushadak,sankhan,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+maru,ambarisha,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+maru,nahush,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+ambarisha,nahush,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+nabhag,aja,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+aja,dasaratha,1,Canto CX. The Sons Of Ikshváku.,BOOK II.
+bharat,sumantra,1,Canto CXI. Counsel To Bharat.,BOOK II.
+bharat,rama,1,Canto CXI. Counsel To Bharat.,BOOK II.
+kaikeyi,rama,1,Canto CXII. The Sandals.,BOOK II.
+rama,bharat,2,Canto CXII. The Sandals.,BOOK II.
+bharat,rama,1,Canto CXII. The Sandals.,BOOK II.
+rama,satrughna,1,Canto CXII. The Sandals.,BOOK II.
+bharat,satrughna,1,Canto CXII. The Sandals.,BOOK II.
+bharat,satrughna,1,Canto CXIII. Bharat's Return.,BOOK II.
+ayodhya,rama,1,Canto CXIII. Bharat's Return.,BOOK II.
+bharat,ayodhya,1,Canto CXIII. Bharat's Return.,BOOK II.
+ayodhya,bharat,1,Canto CXIII. Bharat's Return.,BOOK II.
+bharat,rama,1,Canto CXVI. The Hermit's Speech.,BOOK II.
+sita,anasuya,1,Canto CXVII. Anasúyá.,BOOK II.
+anasuya,videhan,1,Canto CXVII. Anasúyá.,BOOK II.
+rama,ayodhya,1,Canto CXVIII. Anasúyá's Gifts.,BOOK II.
+lakshman,sita,1,Canto I. The Hermitage.,BOOK III.
+rama,viradha,1,Canto II. Virádha.,BOOK III.
+rama,sita,1,Canto II. Virádha.,BOOK III.
+viradha,sita,1,Canto II. Virádha.,BOOK III.
+bharat,viradha,1,Canto II. Virádha.,BOOK III.
+bharat,indra,1,Canto II. Virádha.,BOOK III.
+viradha,indra,1,Canto II. Virádha.,BOOK III.
+satahrada,viradha,1,Canto III. Virádha Attacked.,BOOK III.
+rama,viradha,1,Canto III. Virádha Attacked.,BOOK III.
+rama,lakshman,1,Canto IV. Virádha's Death.,BOOK III.
+lakshman,rama,1,Canto IV. Virádha's Death.,BOOK III.
+viradha,rama,1,Canto IV. Virádha's Death.,BOOK III.
+sarabhanga,rama,1,Canto V. Sarabhanga.,BOOK III.
+lakshman,indra,1,Canto V. Sarabhanga.,BOOK III.
+raghu,rama,1,Canto V. Sarabhanga.,BOOK III.
+meru,sita,1,Canto VII. Sutíkshna.,BOOK III.
+rama,raghu,1,Canto VIII. The Hermitage.,BOOK III.
+rama,lakshman,3,Canto XI. Agastya.,BOOK III.
+sutikshna,rama,1,Canto XI. Agastya.,BOOK III.
+agastya,rama,1,Canto XI. Agastya.,BOOK III.
+rama,lakshman,3,Canto XII. The Heavenly Bow.,BOOK III.
+panchavati,sita,1,Canto XIII. Agastya's Counsel.,BOOK III.
+kardam,vikrit,1,Canto XIV. Jatáyus.,BOOK III.
+kardam,sansray,1,Canto XIV. Jatáyus.,BOOK III.
+kardam,sthanu,1,Canto XIV. Jatáyus.,BOOK III.
+kardam,marichi,1,Canto XIV. Jatáyus.,BOOK III.
+vikrit,sansray,1,Canto XIV. Jatáyus.,BOOK III.
+vikrit,sthanu,1,Canto XIV. Jatáyus.,BOOK III.
+vikrit,marichi,1,Canto XIV. Jatáyus.,BOOK III.
+sansray,sthanu,1,Canto XIV. Jatáyus.,BOOK III.
+sansray,marichi,1,Canto XIV. Jatáyus.,BOOK III.
+sthanu,marichi,1,Canto XIV. Jatáyus.,BOOK III.
+pulastya,pulah,1,Canto XIV. Jatáyus.,BOOK III.
+pulastya,vivasvat,1,Canto XIV. Jatáyus.,BOOK III.
+pulastya,arishtanemi,1,Canto XIV. Jatáyus.,BOOK III.
+pulah,vivasvat,1,Canto XIV. Jatáyus.,BOOK III.
+pulah,arishtanemi,1,Canto XIV. Jatáyus.,BOOK III.
+vivasvat,arishtanemi,1,Canto XIV. Jatáyus.,BOOK III.
+krodhavasa,kasyap,1,Canto XIV. Jatáyus.,BOOK III.
+aditi,vasus,1,Canto XIV. Jatáyus.,BOOK III.
+aditi,adityas,1,Canto XIV. Jatáyus.,BOOK III.
+aditi,diti,1,Canto XIV. Jatáyus.,BOOK III.
+vasus,adityas,1,Canto XIV. Jatáyus.,BOOK III.
+vasus,diti,1,Canto XIV. Jatáyus.,BOOK III.
+adityas,diti,1,Canto XIV. Jatáyus.,BOOK III.
+danu,asvagriva,1,Canto XIV. Jatáyus.,BOOK III.
+narak,kalak,1,Canto XIV. Jatáyus.,BOOK III.
+suki,dhritarashtri,1,Canto XIV. Jatáyus.,BOOK III.
+suki,kraunchi,1,Canto XIV. Jatáyus.,BOOK III.
+dhritarashtri,kraunchi,1,Canto XIV. Jatáyus.,BOOK III.
+bhasi,syeni,1,Canto XIV. Jatáyus.,BOOK III.
+dhritarashtri,suki,1,Canto XIV. Jatáyus.,BOOK III.
+dhritarashtri,nala,1,Canto XIV. Jatáyus.,BOOK III.
+dhritarashtri,vinata,1,Canto XIV. Jatáyus.,BOOK III.
+suki,nala,1,Canto XIV. Jatáyus.,BOOK III.
+suki,vinata,1,Canto XIV. Jatáyus.,BOOK III.
+nala,vinata,1,Canto XIV. Jatáyus.,BOOK III.
+mrigi,mrigamanda,1,Canto XIV. Jatáyus.,BOOK III.
+mrigi,hari,1,Canto XIV. Jatáyus.,BOOK III.
+mrigi,matangi,1,Canto XIV. Jatáyus.,BOOK III.
+mrigi,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+mrigamanda,hari,1,Canto XIV. Jatáyus.,BOOK III.
+mrigamanda,matangi,1,Canto XIV. Jatáyus.,BOOK III.
+mrigamanda,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+hari,matangi,1,Canto XIV. Jatáyus.,BOOK III.
+hari,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+matangi,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+gandharvi,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+gandharvi,kadru,1,Canto XIV. Jatáyus.,BOOK III.
+surasa,kadru,3,Canto XIV. Jatáyus.,BOOK III.
+vaisyas,sudras,1,Canto XIV. Jatáyus.,BOOK III.
+vaisyas,anala,1,Canto XIV. Jatáyus.,BOOK III.
+sudras,anala,1,Canto XIV. Jatáyus.,BOOK III.
+suki,surasa,1,Canto XIV. Jatáyus.,BOOK III.
+suki,kadru,2,Canto XIV. Jatáyus.,BOOK III.
+arun,garud,2,Canto XIV. Jatáyus.,BOOK III.
+arun,vinata,2,Canto XIV. Jatáyus.,BOOK III.
+arun,sampati,2,Canto XIV. Jatáyus.,BOOK III.
+garud,vinata,1,Canto XIV. Jatáyus.,BOOK III.
+garud,sampati,1,Canto XIV. Jatáyus.,BOOK III.
+vinata,sampati,1,Canto XIV. Jatáyus.,BOOK III.
+rama,lakshman,1,Canto XV. Panchavatí.,BOOK III.
+sita,raghu,1,Canto XV. Panchavatí.,BOOK III.
+rama,bharat,1,Canto XVI. Winter.,BOOK III.
+bharat,satrughna,1,Canto XVI. Winter.,BOOK III.
+rama,lakshman,1,Canto XVI. Winter.,BOOK III.
+lakshman,rama,1,Canto XVII. Súrpanakhá.,BOOK III.
+ten-necked,rama,1,Canto XVII. Súrpanakhá.,BOOK III.
+dasaratha,rama,1,Canto XVII. Súrpanakhá.,BOOK III.
+sita,videhan,1,Canto XVII. Súrpanakhá.,BOOK III.
+rama,surpanakha,1,Canto XVII. Súrpanakhá.,BOOK III.
+ravan,kumbhakarna,1,Canto XVII. Súrpanakhá.,BOOK III.
+ravan,vibhishan,1,Canto XVII. Súrpanakhá.,BOOK III.
+kumbhakarna,vibhishan,1,Canto XVII. Súrpanakhá.,BOOK III.
+sita,lakshman,1,Canto XVIII. The Mutilation.,BOOK III.
+janasthan,khara,1,Canto XVIII. The Mutilation.,BOOK III.
+khara,surpanakha,1,Canto XIX. The Rousing Of Khara.,BOOK III.
+rama,lakshman,1,Canto XIX. The Rousing Of Khara.,BOOK III.
+surpanakha,sita,1,Canto XX. The Giants' Death.,BOOK III.
+lakshman,rama,1,Canto XX. The Giants' Death.,BOOK III.
+lakshman,sita,1,Canto XX. The Giants' Death.,BOOK III.
+lakshman,dandak,1,Canto XX. The Giants' Death.,BOOK III.
+sita,dandak,1,Canto XX. The Giants' Death.,BOOK III.
+rama,lakshman,2,Canto XXI. The Rousing Of Khara.,BOOK III.
+khara,dushan,1,Canto XXII. Khara's Wrath.,BOOK III.
+sita,lakshman,1,Canto XXIV. The Host In Sight.,BOOK III.
+mars,rama,1,Canto XXV. The Battle.,BOOK III.
+khara,dushan,1,Canto XXV. The Battle.,BOOK III.
+rama,dushan,1,Canto XXV. The Battle.,BOOK III.
+rama,mahakapala,1,Canto XXVI. Dúshan's Death.,BOOK III.
+sthulaksha,pramathi,1,Canto XXVI. Dúshan's Death.,BOOK III.
+sthulaksha,rama,1,Canto XXVI. Dúshan's Death.,BOOK III.
+pramathi,rama,1,Canto XXVI. Dúshan's Death.,BOOK III.
+dushan,rama,1,Canto XXVI. Dúshan's Death.,BOOK III.
+rama,syenagami,1,Canto XXVI. Dúshan's Death.,BOOK III.
+trisiras,khara,2,Canto XXVII. The Death Of Trisirás.,BOOK III.
+trisiras,dushan,1,Canto XXVIII. Khara Dismounted.,BOOK III.
+yama,khara,1,Canto XXVIII. Khara Dismounted.,BOOK III.
+rudra,namuchi,1,Canto XXX. Khara's Death.,BOOK III.
+trisiras,dushan,1,Canto XXX. Khara's Death.,BOOK III.
+agastya,rama,1,Canto XXX. Khara's Death.,BOOK III.
+rama,lakshman,1,Canto XXX. Khara's Death.,BOOK III.
+rama,sita,1,Canto XXX. Khara's Death.,BOOK III.
+lakshman,sita,1,Canto XXX. Khara's Death.,BOOK III.
+janasthan,khara,1,Canto XXXI. Rávan.,BOOK III.
+akampan,ravan,1,Canto XXXI. Rávan.,BOOK III.
+rama,janasthan,2,Canto XXXI. Rávan.,BOOK III.
+rama,dushan,1,Canto XXXI. Rávan.,BOOK III.
+janasthan,dushan,1,Canto XXXI. Rávan.,BOOK III.
+khara,ravan,1,Canto XXXI. Rávan.,BOOK III.
+rama,akampan,1,Canto XXXI. Rávan.,BOOK III.
+janasthan,akampan,3,Canto XXXI. Rávan.,BOOK III.
+janasthan,rama,1,Canto XXXI. Rávan.,BOOK III.
+surpanakha,trisiras,1,Canto XXXII. Rávan Roused.,BOOK III.
+surpanakha,dushan,1,Canto XXXII. Rávan Roused.,BOOK III.
+trisiras,dushan,1,Canto XXXII. Rávan Roused.,BOOK III.
+kuvera,pushpak,1,Canto XXXII. Rávan Roused.,BOOK III.
+khara,rama,1,Canto XXXIII. Súrpanakhá's Speech.,BOOK III.
+trisiras,dushan,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+trisiras,khara,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+dushan,khara,2,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+khara,dushan,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+sita,janasthan,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+rama,dushan,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+rama,khara,1,Canto XXXIV. Súrpanakhá's Speech.,BOOK III.
+marichipas,vaikhanasas,1,Canto XXXV. Rávan's Journey.,BOOK III.
+marichipas,mashas,1,Canto XXXV. Rávan's Journey.,BOOK III.
+vaikhanasas,mashas,1,Canto XXXV. Rávan's Journey.,BOOK III.
+ravan,garud,1,Canto XXXV. Rávan's Journey.,BOOK III.
+ravan,maricha,1,Canto XXXV. Rávan's Journey.,BOOK III.
+khara,janasthan,1,Canto XXXVI. Rávan's Speech.,BOOK III.
+rama,khara,1,Canto XXXVI. Rávan's Speech.,BOOK III.
+khara,trisiras,1,Canto XXXVI. Rávan's Speech.,BOOK III.
+rama,lakshman,1,Canto XXXVI. Rávan's Speech.,BOOK III.
+varun,indra,1,Canto XXXVII. Márícha's Speech.,BOOK III.
+rama,sita,1,Canto XXXVII. Márícha's Speech.,BOOK III.
+rama,maricha,1,Canto XXXVIII. Márícha's Speech.,BOOK III.
+rama,visvamitra,1,Canto XXXVIII. Márícha's Speech.,BOOK III.
+rama,yama,1,Canto XXXIX. Márícha's Speech.,BOOK III.
+namuchi,rama,1,Canto XXXIX. Márícha's Speech.,BOOK III.
+khara,janasthan,1,Canto XXXIX. Márícha's Speech.,BOOK III.
+indra,varun,1,Canto XL. Rávan's Speech.,BOOK III.
+lakshman,sita,1,Canto XL. Rávan's Speech.,BOOK III.
+maricha,dandak,1,Canto XLII. Márícha Transformed.,BOOK III.
+ravan,maricha,1,Canto XLII. Márícha Transformed.,BOOK III.
+lakshman,rama,1,Canto XLIII. The Wondrous Deer.,BOOK III.
+agastya,maricha,1,Canto XLIII. The Wondrous Deer.,BOOK III.
+sita,ravan,1,Canto XLIV. Márícha's Death.,BOOK III.
+maricha,rama,1,Canto XLIV. Márícha's Death.,BOOK III.
+sita,lakshman,1,Canto XLIV. Márícha's Death.,BOOK III.
+rama,janasthan,2,Canto XLV. Lakshman's Departure.,BOOK III.
+raghu,janak,1,Canto XLV. Lakshman's Departure.,BOOK III.
+lakshman,ravan,1,Canto XLVI. The Guest.,BOOK III.
+rama,lakshman,1,Canto XLVI. The Guest.,BOOK III.
+rama,dasaratha,1,Canto XLVIII. Rávan's Speech.,BOOK III.
+rama,ravan,1,Canto XLIX. The Rape Of Sítá.,BOOK III.
+ravan,rama,1,Canto XLIX. The Rape Of Sítá.,BOOK III.
+vritra,indra,1,Canto L. Jatáyus.,BOOK III.
+rama,ravan,1,Canto LI. The Combat.,BOOK III.
+ravan,rama,1,Canto LII. Rávan's Flight.,BOOK III.
+ravan,lakshman,1,Canto LII. Rávan's Flight.,BOOK III.
+rama,lakshman,1,Canto LII. Rávan's Flight.,BOOK III.
+ravan,meru,1,Canto LII. Rávan's Flight.,BOOK III.
+dushan,khara,1,Canto LIV. Lanká.,BOOK III.
+janasthan,khara,1,Canto LVI. Sítá's Disdain.,BOOK III.
+sita,lanka,1,Canto LVI. Sítá's Disdain.,BOOK III.
+sita,ravan,1,Canto LVI. Sítá's Disdain.,BOOK III.
+rama,lakshman,1,Canto LVI. Sítá's Disdain.,BOOK III.
+lanka,rama,1,Canto LVII. Sítá Comforted.,BOOK III.
+asoka,sita,1,Canto LVII. Sítá Comforted.,BOOK III.
+rama,sita,1,Canto LVIII. The Brothers' Meeting.,BOOK III.
+kaikeyi,sita,1,Canto LIX. Ráma's Return.,BOOK III.
+sita,janasthan,1,Canto LIX. Ráma's Return.,BOOK III.
+sita,lakshman,1,Canto LIX. Ráma's Return.,BOOK III.
+janasthan,lakshman,1,Canto LIX. Ráma's Return.,BOOK III.
+rama,indra,1,Canto LX. Lakshman Reproved.,BOOK III.
+rama,lakshman,1,Canto LXII. Ráma's Lament.,BOOK III.
+rama,sita,1,Canto LXII. Ráma's Lament.,BOOK III.
+kaikeyi,sita,1,Canto LXIII. Ráma's Lament.,BOOK III.
+godavari,sita,1,Canto LXV. Ráma's Wrath.,BOOK III.
+sita,rama,1,Canto LXV. Ráma's Wrath.,BOOK III.
+ravan,lakshman,1,Canto LXV. Ráma's Wrath.,BOOK III.
+yayati,nahush,1,Canto LXVII. Ráma Appeased.,BOOK III.
+yayati,indra,1,Canto LXVII. Ráma Appeased.,BOOK III.
+nahush,indra,1,Canto LXVII. Ráma Appeased.,BOOK III.
+gandharvas,kinnars,1,Canto LXVIII. Jatáyus.,BOOK III.
+rama,sita,1,Canto LXIX. The Death Of Jatáyus.,BOOK III.
+lakshman,rama,1,Canto LXX. Kabandha.,BOOK III.
+kabandha,rama,1,Canto LXX. Kabandha.,BOOK III.
+rama,lakshman,1,Canto LXXI. Kabandha's Speech.,BOOK III.
+danu,lakshman,1,Canto LXXII. Kabandha's Tale.,BOOK III.
+danu,rama,2,Canto LXXII. Kabandha's Tale.,BOOK III.
+lakshman,rama,1,Canto LXXII. Kabandha's Tale.,BOOK III.
+janasthan,ravan,1,Canto LXXII. Kabandha's Tale.,BOOK III.
+pampa,kabandha,1,Canto LXXV. Savarí.,BOOK III.
+savari,rama,1,Canto LXXVI. Pampá.,BOOK III.
+savari,lakshman,1,Canto LXXVI. Pampá.,BOOK III.
+rama,lakshman,1,Canto LXXVI. Pampá.,BOOK III.
+gandharvas,kinnars,1,Canto LXXVI. Pampá.,BOOK III.
+rama,pampa,1,Canto LXXVI. Pampá.,BOOK III.
+rishyamuka,riksharajas,1,Canto LXXVI. Pampá.,BOOK III.
+lakshman,pampa,1,Canto LXXVI. Pampá.,BOOK III.
+sita,kausalya,1,Canto I. Ráma's Lament.,BOOK IV.
+sita,rama,1,Canto I. Ráma's Lament.,BOOK IV.
+sita,lakshman,1,Canto I. Ráma's Lament.,BOOK IV.
+rama,lakshman,1,Canto I. Ráma's Lament.,BOOK IV.
+sugriva,raghu,1,Canto II. Sugríva's Alarm.,BOOK IV.
+raghu,lakshman,1,Canto III. Hanumán's Speech.,BOOK IV.
+rama,lakshman,1,Canto III. Hanumán's Speech.,BOOK IV.
+rama,sugriva,2,Canto IV. Lakshman's Reply.,BOOK IV.
+lakshman,rama,1,Canto V. The League.,BOOK IV.
+rama,hanuman,1,Canto V. The League.,BOOK IV.
+lakshman,sugriva,1,Canto V. The League.,BOOK IV.
+rama,sugriva,1,Canto V. The League.,BOOK IV.
+rama,hanuman,1,Canto VI. The Tokens.,BOOK IV.
+lakshman,indra,1,Canto VIII. Ráma's Promise.,BOOK IV.
+rama,hanuman,1,Canto VIII. Ráma's Promise.,BOOK IV.
+bali,sugriva,1,Canto XI. Dundubhi.,BOOK IV.
+bali,lakshman,1,Canto XI. Dundubhi.,BOOK IV.
+sugriva,lakshman,1,Canto XI. Dundubhi.,BOOK IV.
+bali,rama,1,Canto XI. Dundubhi.,BOOK IV.
+sugriva,rama,1,Canto XI. Dundubhi.,BOOK IV.
+sugriva,rama,1,Canto XII. The Palm Trees.,BOOK IV.
+rama,bali,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+sugriva,lakshman,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+sugriva,nala,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+sugriva,nila,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+lakshman,nala,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+lakshman,nila,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+nala,nila,1,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+rama,sugriva,2,Canto XIII. The Return To Kishkindhá.,BOOK IV.
+sugriva,rama,1,Canto XIV. The Challenge.,BOOK IV.
+rama,lakshman,1,Canto XV. Tárá.,BOOK IV.
+rama,sugriva,1,Canto XV. Tárá.,BOOK IV.
+lakshman,sugriva,1,Canto XV. Tárá.,BOOK IV.
+rama,sugriva,2,Canto XVI. The Fall Of Báli.,BOOK IV.
+sugriva,bali,1,Canto XVI. The Fall Of Báli.,BOOK IV.
+rama,lakshman,3,Canto XVII. Báli's Speech.,BOOK IV.
+sugriva,lakshman,2,Canto XVIII. Ráma's Reply.,BOOK IV.
+bali,tara,1,Canto XVIII. Ráma's Reply.,BOOK IV.
+angad,sugriva,1,Canto XVIII. Ráma's Reply.,BOOK IV.
+sugriva,bharat,1,Canto XVIII. Ráma's Reply.,BOOK IV.
+bharat,lakshman,1,Canto XVIII. Ráma's Reply.,BOOK IV.
+tara,bali,1,Canto XIX. Tárá's Grief.,BOOK IV.
+tara,angad,2,Canto XIX. Tárá's Grief.,BOOK IV.
+bali,angad,1,Canto XIX. Tárá's Grief.,BOOK IV.
+tara,rama,1,Canto XIX. Tárá's Grief.,BOOK IV.
+angad,rama,1,Canto XIX. Tárá's Grief.,BOOK IV.
+sugriva,lakshman,1,Canto XIX. Tárá's Grief.,BOOK IV.
+sugriva,rama,1,Canto XX. Tárá's Lament.,BOOK IV.
+hanuman,angad,1,Canto XXI. Hanumán's Speech.,BOOK IV.
+angad,sugriva,1,Canto XXI. Hanumán's Speech.,BOOK IV.
+bali,sugriva,1,Canto XXII. Báli Dead.,BOOK IV.
+bali,angad,1,Canto XXII. Báli Dead.,BOOK IV.
+sugriva,rama,1,Canto XXIII. Tárá's Lament.,BOOK IV.
+sugriva,tara,3,Canto XXV. Ráma's Speech.,BOOK IV.
+rama,lakshman,1,Canto XXV. Ráma's Speech.,BOOK IV.
+bali,sugriva,1,Canto XXV. Ráma's Speech.,BOOK IV.
+angad,tara,1,Canto XXV. Ráma's Speech.,BOOK IV.
+brahma,hanuman,1,Canto XXVI. The Coronation.,BOOK IV.
+sugriva,raghu,1,Canto XXVII. Ráma On The Hill.,BOOK IV.
+sugriva,prasravan,1,Canto XXVII. Ráma On The Hill.,BOOK IV.
+raghu,prasravan,1,Canto XXVII. Ráma On The Hill.,BOOK IV.
+ruma,tara,1,Canto XXIX. Hanumán's Counsel.,BOOK IV.
+sugriva,nila,1,Canto XXIX. Hanumán's Counsel.,BOOK IV.
+indra,thousand-eyed,1,Canto XXX. Ráma's Lament.,BOOK IV.
+indra,lakshman,1,Canto XXX. Ráma's Lament.,BOOK IV.
+thousand-eyed,lakshman,1,Canto XXX. Ráma's Lament.,BOOK IV.
+raghu,indra,1,Canto XXX. Ráma's Lament.,BOOK IV.
+rama,lakshman,1,Canto XXXI. The Envoy.,BOOK IV.
+sugriva,rama,1,Canto XXXI. The Envoy.,BOOK IV.
+angad,lakshman,2,Canto XXXI. The Envoy.,BOOK IV.
+vindhya,lakshman,1,Canto XXXIII. Lakshman's Entry.,BOOK IV.
+rama,sugriva,1,Canto XXXIII. Lakshman's Entry.,BOOK IV.
+tara,sugriva,1,Canto XXXIII. Lakshman's Entry.,BOOK IV.
+ruma,sugriva,1,Canto XXXIV. Lakshman's Speech.,BOOK IV.
+sugriva,lakshman,1,Canto XXXIV. Lakshman's Speech.,BOOK IV.
+lakshman,sugriva,1,Canto XXXVI. Sugríva's Speech.,BOOK IV.
+rama,ravan,1,Canto XXXVI. Sugríva's Speech.,BOOK IV.
+rama,sita,1,Canto XXXVI. Sugríva's Speech.,BOOK IV.
+ravan,sita,1,Canto XXXVI. Sugríva's Speech.,BOOK IV.
+sugriva,lakshman,2,Canto XXXVIII. Sugríva's Departure.,BOOK IV.
+sugriva,tara,1,Canto XXXVIII. Sugríva's Departure.,BOOK IV.
+sachi,indra,1,Canto XXXIX. The Vánar Host.,BOOK IV.
+darimukha,dwivid,1,Canto XXXIX. The Vánar Host.,BOOK IV.
+darimukha,asvin,1,Canto XXXIX. The Vánar Host.,BOOK IV.
+dwivid,asvin,1,Canto XXXIX. The Vánar Host.,BOOK IV.
+sugriva,rama,1,Canto XXXIX. The Vánar Host.,BOOK IV.
+ravan,sita,1,Canto XL. The Army Of The East.,BOOK IV.
+nila,jambavan,1,Canto XLI. The Army Of The South.,BOOK IV.
+sushen,sugriva,1,Canto XLII. The Army Of The West.,BOOK IV.
+rama,hanuman,1,Canto XLIV. The Ring.,BOOK IV.
+angad,vinata,1,Canto XLV. The Departure.,BOOK IV.
+sugriva,mayavi,1,Canto XLVI. Sugríva's Tale.,BOOK IV.
+sita,sugriva,1,Canto XLVII. The Return.,BOOK IV.
+vinata,satabali,1,Canto XLVII. The Return.,BOOK IV.
+sugriva,sushen,2,Canto XLVII. The Return.,BOOK IV.
+angad,tara,1,Canto L. The Enchanted Cave.,BOOK IV.
+angad,hanuman,1,Canto L. The Enchanted Cave.,BOOK IV.
+tara,hanuman,1,Canto L. The Enchanted Cave.,BOOK IV.
+raghu,ruma,1,Canto LV. Angad's Reply.,BOOK IV.
+angad,hanuman,1,Canto LVI. Sampáti.,BOOK IV.
+rama,lakshman,1,Canto LVI. Sampáti.,BOOK IV.
+rama,jatayus,1,Canto LVI. Sampáti.,BOOK IV.
+rama,bali,1,Canto LVI. Sampáti.,BOOK IV.
+lakshman,jatayus,1,Canto LVI. Sampáti.,BOOK IV.
+lakshman,bali,1,Canto LVI. Sampáti.,BOOK IV.
+jatayus,bali,1,Canto LVI. Sampáti.,BOOK IV.
+rama,sugriva,1,Canto LVII. Angad's Speech.,BOOK IV.
+sampati,angad,1,Canto LVIII. Tidings Of Sítá.,BOOK IV.
+rama,vishnu,1,Canto LVIII. Tidings Of Sítá.,BOOK IV.
+rama,asurs,1,Canto LVIII. Tidings Of Sítá.,BOOK IV.
+vishnu,asurs,1,Canto LVIII. Tidings Of Sítá.,BOOK IV.
+ravan,videhan,1,Canto LVIII. Tidings Of Sítá.,BOOK IV.
+vindhya,nisakar,1,Canto LX. Sampáti's Story.,BOOK IV.
+meru,vindhya,1,Canto LXI. Sampáti's Story.,BOOK IV.
+rama,lakshman,1,Canto LXII. Sampáti's Story.,BOOK IV.
+angad,indra,1,Canto LXIV. The Sea.,BOOK IV.
+hanuman,rama,1,Canto I. Hanumán's Leap.,BOOK V.
+hanuman,ravan,1,Canto I. Hanumán's Leap.,BOOK V.
+rama,ravan,1,Canto I. Hanumán's Leap.,BOOK V.
+lakshman,bharat,1,Canto XIII. Despair And Hope.,BOOK V.
+hanuman,asoka,1,Canto XIII. Despair And Hope.,BOOK V.
+bali,janasthan,1,Canto XVI. Hanumán's Lament.,BOOK V.
+sita,rama,1,Canto XVII. Sítá's Guard.,BOOK V.
+asoka,indra,1,Canto XVIII. Rávan.,BOOK V.
+visravas,pulastya,1,Canto XXIII. The Demons' Threats.,BOOK V.
+sita,ravan,1,Canto XXVII. Trijatá's Dream.,BOOK V.
+sita,rama,1,Canto XXXIII. The Colloquy.,BOOK V.
+lakshman,sugriva,1,Canto XXXIV. Hanumán's Speech.,BOOK V.
+rama,sugriva,1,Canto XXXV. Hanumán's Speech.,BOOK V.
+bharat,sugriva,1,Canto XXXVI. Ráma's Ring.,BOOK V.
+rama,indra,1,Canto XXXVI. Ráma's Ring.,BOOK V.
+rama,prasravan,1,Canto XXXVII. Sítá's Speech.,BOOK V.
+sita,hanuman,2,Canto XXXVIII. Sítá's Gem.,BOOK V.
+sita,rama,1,Canto XXXVIII. Sítá's Gem.,BOOK V.
+hanuman,rama,2,Canto XXXVIII. Sítá's Gem.,BOOK V.
+hanuman,ravan,1,Canto XLII. The Giants Roused.,BOOK V.
+yupaksha,virupaksha,1,Canto XLVI. The Captains.,BOOK V.
+asurs,jambumali,1,Canto XLVIII. Hanumán Captured.,BOOK V.
+lakshman,rama,1,Canto LI. Hanumán's Reply.,BOOK V.
+sugriva,rama,1,Canto LI. Hanumán's Reply.,BOOK V.
+ravan,lanka,1,Canto LI. Hanumán's Reply.,BOOK V.
+ravan,vibhishan,1,Canto LII. Vibhishan's Speech.,BOOK V.
+hanuman,jambavan,1,Canto LVII. Hanumán's Return.,BOOK V.
+dadhimukh,sugriva,1,Canto LVIII. The Feast Of Honey.,BOOK V.
+sugriva,hanuman,1,Canto LVIII. The Feast Of Honey.,BOOK V.
+raghu,hanuman,1,Canto I. Ráma's Speech.,BOOK VI.
+dwivid,panas,1,Canto III. Lanká.,BOOK VI.
+dwivid,jambavan,1,Canto III. Lanká.,BOOK VI.
+panas,jambavan,1,Canto III. Lanká.,BOOK VI.
+dwivid,rama,1,Canto V. Ráma's Lament.,BOOK VI.
+kailasa,yaksha,1,Canto VII. Rávan Encouraged.,BOOK VI.
+maya,danav,1,Canto VII. Rávan Encouraged.,BOOK VI.
+maya,sankha,1,Canto VII. Rávan Encouraged.,BOOK VI.
+danav,sankha,1,Canto VII. Rávan Encouraged.,BOOK VI.
+vajradanshtra,hanuman,1,Canto VIII. Prahasta's Speech.,BOOK VI.
+hanuman,vibhishan,1,Canto IX. Vibhishan's Counsel.,BOOK VI.
+vibhishan,sita,1,Canto XIV. Vibhishan's Speech.,BOOK VI.
+rama,indra,1,Canto XIV. Vibhishan's Speech.,BOOK VI.
+vibhishan,sugriva,2,Canto XVII. Vibhishan's Flight.,BOOK VI.
+janasthan,janak,1,Canto XVII. Vibhishan's Flight.,BOOK VI.
+sugriva,rama,1,Canto XVII. Vibhishan's Flight.,BOOK VI.
+bali,sugriva,1,Canto XVII. Vibhishan's Flight.,BOOK VI.
+rama,vibhishan,1,Canto XVIII. Ráma's Speech.,BOOK VI.
+rama,indra,1,Canto XVIII. Ráma's Speech.,BOOK VI.
+vibhishan,indra,1,Canto XVIII. Ráma's Speech.,BOOK VI.
+ravan,vibhishan,1,Canto XIX. Vibhishan's Counsel.,BOOK VI.
+rama,lakshman,1,Canto XX. The Spies.,BOOK VI.
+ravan,sugriva,1,Canto XX. The Spies.,BOOK VI.
+rama,vulture-king,1,Canto XX. The Spies.,BOOK VI.
+rama,raghu,1,Canto XXI. Ocean Threatened.,BOOK VI.
+rama,sugriva,1,Canto XXII. Ocean Threatened.,BOOK VI.
+rama,angad,1,Canto XXII. Ocean Threatened.,BOOK VI.
+rama,lakshman,1,Canto XXII. Ocean Threatened.,BOOK VI.
+sugriva,angad,1,Canto XXII. Ocean Threatened.,BOOK VI.
+sugriva,lakshman,1,Canto XXII. Ocean Threatened.,BOOK VI.
+angad,lakshman,1,Canto XXII. Ocean Threatened.,BOOK VI.
+rama,lanka,1,Canto XXIV. The Spy's Return.,BOOK VI.
+sita,rohini,1,Canto XXIV. The Spy's Return.,BOOK VI.
+rama,rishabh,1,Canto XXIV. The Spy's Return.,BOOK VI.
+lakshman,jambavan,1,Canto XXIV. The Spy's Return.,BOOK VI.
+lakshman,sushen,1,Canto XXIV. The Spy's Return.,BOOK VI.
+jambavan,sushen,1,Canto XXIV. The Spy's Return.,BOOK VI.
+rama,sugriva,3,Canto XXIV. The Spy's Return.,BOOK VI.
+viradha,kabandha,1,Canto XXIV. The Spy's Return.,BOOK VI.
+rama,suka,1,Canto XXV. Rávan's Spies.,BOOK VI.
+rama,saran,1,Canto XXV. Rávan's Spies.,BOOK VI.
+suka,saran,2,Canto XXV. Rávan's Spies.,BOOK VI.
+rama,ravan,1,Canto XXV. Rávan's Spies.,BOOK VI.
+sugriva,rama,1,Canto XXV. Rávan's Spies.,BOOK VI.
+sugriva,lanka,1,Canto XXVI. The Vánar Chiefs.,BOOK VI.
+gaja,gavaksha,1,Canto XXVII. The Vánar Chiefs.,BOOK VI.
+nala,nila,1,Canto XXVII. The Vánar Chiefs.,BOOK VI.
+saran,suka,1,Canto XXVIII. The Chieftains.,BOOK VI.
+saran,ravan,1,Canto XXVIII. The Chieftains.,BOOK VI.
+suka,ravan,1,Canto XXVIII. The Chieftains.,BOOK VI.
+kishkindha,sugriva,1,Canto XXVIII. The Chieftains.,BOOK VI.
+dwivid,mainda,1,Canto XXVIII. The Chieftains.,BOOK VI.
+dwivid,brahma,1,Canto XXVIII. The Chieftains.,BOOK VI.
+mainda,brahma,1,Canto XXVIII. The Chieftains.,BOOK VI.
+tara,sugriva,1,Canto XXVIII. The Chieftains.,BOOK VI.
+tara,rama,1,Canto XXVIII. The Chieftains.,BOOK VI.
+sugriva,rama,1,Canto XXVIII. The Chieftains.,BOOK VI.
+vibhishan,sugriva,2,Canto XXIX. Sárdúla Captured.,BOOK VI.
+vidyujjihva,ravan,1,Canto XXXI. The Magic Head.,BOOK VI.
+sita,lanka,1,Canto XXXI. The Magic Head.,BOOK VI.
+vibhishan,lakshman,1,Canto XXXI. The Magic Head.,BOOK VI.
+hanuman,sugriva,1,Canto XXXI. The Magic Head.,BOOK VI.
+hanuman,mainda,1,Canto XXXI. The Magic Head.,BOOK VI.
+hanuman,dwivid,1,Canto XXXI. The Magic Head.,BOOK VI.
+sugriva,mainda,1,Canto XXXI. The Magic Head.,BOOK VI.
+sugriva,dwivid,1,Canto XXXI. The Magic Head.,BOOK VI.
+mainda,dwivid,1,Canto XXXI. The Magic Head.,BOOK VI.
+rama,prahasta,1,Canto XXXI. The Magic Head.,BOOK VI.
+rama,indra,1,Canto XXXIII. Saramá.,BOOK VI.
+ravan,sarama,1,Canto XXXIV. Saramá's Tidings.,BOOK VI.
+lakshman,rama,1,Canto XXXVI. Rávan's Reply.,BOOK VI.
+saran,suka,1,Canto XXXVI. Rávan's Reply.,BOOK VI.
+ravan,vibhishan,1,Canto XXXVII. Preparations.,BOOK VI.
+raghu,sugriva,1,Canto XL. Rávan Attacked.,BOOK VI.
+mainda,dwivid,1,Canto XLI. Ráma's Envoy.,BOOK VI.
+hanuman,sugriva,1,Canto XLI. Ráma's Envoy.,BOOK VI.
+hanuman,ravan,1,Canto XLI. Ráma's Envoy.,BOOK VI.
+sugriva,ravan,1,Canto XLI. Ráma's Envoy.,BOOK VI.
+angad,rama,1,Canto XLI. Ráma's Envoy.,BOOK VI.
+rama,lanka,1,Canto XLII. The Sally.,BOOK VI.
+indrajit,angad,3,Canto XLIII. The Single Combats.,BOOK VI.
+prajangha,jambumali,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,gaja,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,tapan,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,nila,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,nikumbha,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+satrughna,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+gaja,tapan,1,Canto XLIII. The Single Combats.,BOOK VI.
+gaja,nila,1,Canto XLIII. The Single Combats.,BOOK VI.
+gaja,nikumbha,1,Canto XLIII. The Single Combats.,BOOK VI.
+gaja,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+gaja,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+tapan,nila,1,Canto XLIII. The Single Combats.,BOOK VI.
+tapan,nikumbha,1,Canto XLIII. The Single Combats.,BOOK VI.
+tapan,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+tapan,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+nila,nikumbha,1,Canto XLIII. The Single Combats.,BOOK VI.
+nila,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+nila,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+nikumbha,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+nikumbha,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+praghas,lakshman,1,Canto XLIII. The Single Combats.,BOOK VI.
+rama,agniketu,1,Canto XLIII. The Single Combats.,BOOK VI.
+indra,indrajit,1,Canto XLIII. The Single Combats.,BOOK VI.
+indra,angad,2,Canto XLIII. The Single Combats.,BOOK VI.
+sampati,jambumali,1,Canto XLIII. The Single Combats.,BOOK VI.
+sampati,hanuman,1,Canto XLIII. The Single Combats.,BOOK VI.
+jambumali,hanuman,1,Canto XLIII. The Single Combats.,BOOK VI.
+sugriva,praghas,1,Canto XLIII. The Single Combats.,BOOK VI.
+virupaksha,rama,1,Canto XLIII. The Single Combats.,BOOK VI.
+angad,nila,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+angad,hanuman,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+nila,hanuman,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+ravan,indrajit,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+ravan,raghu,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+indrajit,raghu,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+rama,dushan,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+rama,khara,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+dushan,khara,1,Canto XLVI. Indrajít's Triumph.,BOOK VI.
+rama,angad,1,Canto XLVII. Sítá.,BOOK VI.
+sugriva,angad,1,Canto L. The Broken Spell.,BOOK VI.
+raghu,vibhishan,1,Canto L. The Broken Spell.,BOOK VI.
+raghu,sugriva,1,Canto L. The Broken Spell.,BOOK VI.
+vibhishan,sugriva,1,Canto L. The Broken Spell.,BOOK VI.
+sugriva,kishkindha,1,Canto L. The Broken Spell.,BOOK VI.
+panas,sampati,1,Canto L. The Broken Spell.,BOOK VI.
+ravan,sita,1,Canto L. The Broken Spell.,BOOK VI.
+rama,dhumraksha,1,Canto LI. Dhúmráksha's Sally.,BOOK VI.
+dhumraksha,hanuman,1,Canto LII. Dhúmráksha's Death.,BOOK VI.
+ravan,vajradanshtra,1,Canto LIII. Vajradanshtra's Sally.,BOOK VI.
+raghu,sugriva,1,Canto LIII. Vajradanshtra's Sally.,BOOK VI.
+mercury,mars,1,Canto LIV. Vajradanshtra's Death.,BOOK VI.
+akampan,prahasta,1,Canto LIV. Vajradanshtra's Death.,BOOK VI.
+ravan,kumbhakarna,1,"Cantos and the results are exactly the same as before. In Canto LV,",BOOK VI.
+ravan,prahasta,1,"Cantos and the results are exactly the same as before. In Canto LV,",BOOK VI.
+kumbhakarna,prahasta,1,"Cantos and the results are exactly the same as before. In Canto LV,",BOOK VI.
+nila,prahasta,4,"Cantos and the results are exactly the same as before. In Canto LV,",BOOK VI.
+sugriva,sushen,1,Canto LIX. Rávan's Sally.,BOOK VI.
+nala,gavaya,1,Canto LIX. Rávan's Sally.,BOOK VI.
+lakshman,hanuman,1,Canto LIX. Rávan's Sally.,BOOK VI.
+ravan,nila,1,Canto LIX. Rávan's Sally.,BOOK VI.
+ravan,lakshman,2,Canto LIX. Rávan's Sally.,BOOK VI.
+rama,lakshman,1,Canto LIX. Rávan's Sally.,BOOK VI.
+hanuman,rama,1,Canto LIX. Rávan's Sally.,BOOK VI.
+hanuman,vishnu,1,Canto LIX. Rávan's Sally.,BOOK VI.
+rama,vishnu,1,Canto LIX. Rávan's Sally.,BOOK VI.
+rama,ravan,1,Canto LIX. Rávan's Sally.,BOOK VI.
+vibhishan,yama,1,Canto LXI. The Vánars' Alarm.,BOOK VI.
+indra,gandharvas,1,Canto LXI. The Vánars' Alarm.,BOOK VI.
+indra,kumbhakarna,1,Canto LXI. The Vánars' Alarm.,BOOK VI.
+airavat,indra,1,Canto LXI. The Vánars' Alarm.,BOOK VI.
+vibhishan,sita,1,Canto LXIII. Kumbhakarna's Boast.,BOOK VI.
+varun,indra,1,Canto LXIII. Kumbhakarna's Boast.,BOOK VI.
+kumbhakarna,raghu,1,Canto LXIV. Mahodar's Speech.,BOOK VI.
+kumbhakarna,ravan,2,Canto LXV. Kumbhakarna's Speech.,BOOK VI.
+kumbhakarna,rishabh,1,Canto LXVII. Kumbhakarna's Death.,BOOK VI.
+nila,sarabh,1,Canto LXVII. Kumbhakarna's Death.,BOOK VI.
+kumbhakarna,danav,1,Canto LXVII. Kumbhakarna's Death.,BOOK VI.
+devantak,narantak,1,Canto LXIX. Narántak's Death.,BOOK VI.
+devantak,angad,2,Canto LXX. The Death Of Trisirás.,BOOK VI.
+mahodar,angad,1,Canto LXX. The Death Of Trisirás.,BOOK VI.
+hanuman,nila,1,Canto LXX. The Death Of Trisirás.,BOOK VI.
+devantak,hanuman,1,Canto LXX. The Death Of Trisirás.,BOOK VI.
+mahodar,trisiras,1,Canto LXX. The Death Of Trisirás.,BOOK VI.
+rama,vibhishan,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+atikaya,dhanyamalini,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+atikaya,ravan,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+atikaya,lanka,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+dhanyamalini,ravan,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+dhanyamalini,lanka,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+ravan,lanka,1,Canto LXXI. Atikáya's Death.,BOOK VI.
+ravan,atikaya,1,Canto LXXII. Rávan's Speech.,BOOK VI.
+indrajit,raghu,1,Canto LXXIII. Indrajít's Victory.,BOOK VI.
+nila,gaya,1,Canto LXXIII. Indrajít's Victory.,BOOK VI.
+hanuman,mainda,1,Canto LXXIII. Indrajít's Victory.,BOOK VI.
+hanuman,vibhishan,2,Canto LXXIV. The Medicinal Herbs.,BOOK VI.
+sugriva,jambavan,1,Canto LXXIV. The Medicinal Herbs.,BOOK VI.
+sugriva,dwivid,1,Canto LXXIV. The Medicinal Herbs.,BOOK VI.
+jambavan,dwivid,1,Canto LXXIV. The Medicinal Herbs.,BOOK VI.
+brahma,rudra,1,Canto LXXIV. The Medicinal Herbs.,BOOK VI.
+sugriva,ravan,1,Canto LXXV. The Night Attack.,BOOK VI.
+nikumbha,kumbha,1,Canto LXXV. The Night Attack.,BOOK VI.
+angad,dwivid,1,Canto LXXV. The Night Attack.,BOOK VI.
+angad,sugriva,1,Canto LXXV. The Night Attack.,BOOK VI.
+dwivid,sugriva,1,Canto LXXV. The Night Attack.,BOOK VI.
+kumbha,sugriva,1,Canto LXXV. The Night Attack.,BOOK VI.
+sugriva,kumbha,1,Canto LXXV. The Night Attack.,BOOK VI.
+sugriva,nikumbha,1,Canto LXXV. The Night Attack.,BOOK VI.
+kumbha,nikumbha,1,Canto LXXV. The Night Attack.,BOOK VI.
+kumbha,ravan,1,Canto LXXV. The Night Attack.,BOOK VI.
+kumbha,makaraksha,1,Canto LXXV. The Night Attack.,BOOK VI.
+kumbha,khara,1,Canto LXXV. The Night Attack.,BOOK VI.
+ravan,makaraksha,1,Canto LXXV. The Night Attack.,BOOK VI.
+ravan,khara,1,Canto LXXV. The Night Attack.,BOOK VI.
+makaraksha,khara,1,Canto LXXV. The Night Attack.,BOOK VI.
+rama,gandharva,1,Canto XCIII. Rávan's Lament.,BOOK VI.
+sugriva,angad,1,Canto XCVI. Rávan's Sally.,BOOK VI.
+rama,angad,1,Canto C. Rávan In The Field.,BOOK VI.
+ravan,lakshman,2,Canto C. Rávan In The Field.,BOOK VI.
+ravan,rama,1,Canto C. Rávan In The Field.,BOOK VI.
+ravan,lakshman,1,Canto CI. Lakshman's Fall.,BOOK VI.
+ravan,vibhishan,1,Canto CI. Lakshman's Fall.,BOOK VI.
+lakshman,vibhishan,1,Canto CI. Lakshman's Fall.,BOOK VI.
+ravan,rama,1,Canto CIII. Indra's Car.,BOOK VI.
+rama,lanka,1,Canto CIX. The Battle.,BOOK VI.
+matali,rama,1,Canto CX. Rávan's Death.,BOOK VI.
+mandodari,indra,1,Canto CXIII. Mandodarí's Lament.,BOOK VI.
+janasthan,khara,1,Canto CXIII. Mandodarí's Lament.,BOOK VI.
+rama,vibhishan,1,Canto CXIII. Mandodarí's Lament.,BOOK VI.
+indra,vibhishan,1,Canto CXIII. Mandodarí's Lament.,BOOK VI.
+vibhishan,lanka,1,Canto CXIII. Mandodarí's Lament.,BOOK VI.
+sugriva,hanuman,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+indra,raghu,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+swarga,sugriva,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+swarga,rama,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+sugriva,rama,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+hanuman,lakshman,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+hanuman,sugriva,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+lakshman,sugriva,1,Canto CXIV. Vibhishan Consecrated.,BOOK VI.
+lanka,rama,1,Canto CXV. Sítá's Joy.,BOOK VI.
+vibhishan,sita,1,Canto CXVI. The Meeting.,BOOK VI.
+sita,lakshman,1,Canto CXVI. The Meeting.,BOOK VI.
+rama,dasaratha,1,Canto CXIX. Glory To Vishnu.,BOOK VI.
+sita,lakshmi,1,Canto CXIX. Glory To Vishnu.,BOOK VI.
+sita,ravan,1,Canto CXIX. Glory To Vishnu.,BOOK VI.
+lakshmi,ravan,1,Canto CXIX. Glory To Vishnu.,BOOK VI.
+kausalya,kaikeyi,1,Canto CXXI. Dasaratha.,BOOK VI.
+kausalya,sumitra,1,Canto CXXI. Dasaratha.,BOOK VI.
+kaikeyi,sumitra,1,Canto CXXI. Dasaratha.,BOOK VI.
+purushottam,kausalya,1,Canto CXXI. Dasaratha.,BOOK VI.
+indra,rama,1,Canto CXXI. Dasaratha.,BOOK VI.
+raghu,ayodhya,1,Canto CXXII. Indra's Boon.,BOOK VI.
+lanka,raghu,1,Canto CXXIII. The Magic Car.,BOOK VI.
+rama,lakshman,1,Canto CXXIV. The Departure.,BOOK VI.
+kausalya,raghu,1,Canto CXXIV. The Departure.,BOOK VI.
+kishkindha,bali,1,Canto CXXV. The Return.,BOOK VI.
+bharadvaja,guha,1,Canto CXXV. The Return.,BOOK VI.
+bharadvaja,rama,1,Canto CXXVI. Bharat Consoled.,BOOK VI.
+sringavera,guha,1,Canto CXXVII. Ráma's Message.,BOOK VI.
+hanuman,jumna,1,Canto CXXVII. Ráma's Message.,BOOK VI.
+gomati,nandigrama,1,Canto CXXVII. Ráma's Message.,BOOK VI.
+dandak,viradha,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+rama,indra,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+khara,trisiras,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+khara,dushan,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+trisiras,dushan,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+jatayus,rama,1,Canto CXXVIII. Hanumán's Story.,BOOK VI.
+bharat,satrughna,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+kausalya,sumitra,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+ravan,vibhishan,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+ravan,sugriva,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+vibhishan,sugriva,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+rama,lakshman,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+jambavan,sugriva,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+vibhishan,satrughna,1,Canto CXXIX. The Meeting With Bharat.,BOOK VI.
+sita,sumantra,1,Canto CXXX. The Consecration.,BOOK VI.
+sita,satrughna,1,Canto CXXX. The Consecration.,BOOK VI.
+sumantra,satrughna,1,Canto CXXX. The Consecration.,BOOK VI.
+ayodhya,indra,1,Canto CXXX. The Consecration.,BOOK VI.
+bharat,satrughna,1,Canto CXXX. The Consecration.,BOOK VI.
+bharat,vibhishan,1,Canto CXXX. The Consecration.,BOOK VI.
+satrughna,vibhishan,1,Canto CXXX. The Consecration.,BOOK VI.
+sugriva,satrunjay,1,Canto CXXX. The Consecration.,BOOK VI.
+bharat,sugriva,2,Canto CXXX. The Consecration.,BOOK VI.
+rama,sita,1,Canto CXXX. The Consecration.,BOOK VI.
+vijay,vamadeva,1,Canto CXXX. The Consecration.,BOOK VI.
