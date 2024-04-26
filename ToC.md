@@ -46,3 +46,9 @@ B - Book wise metric
 too slow!
 4) K-means clusters scatter(C) | Need mod -> on-hover label | or include in network
 
+streamlit, gradio, Langchain, PineCone, FAISS, git
+
+- EDA : word2vec, TSNE, NER, NLP
+- Sentiment analysis, network analysis/(centrality metrics), statistical analysis, visualization, streamlit, gradio deployment
+- LLM, embedding, vector db, question answering, similarity, similarity metrics, model/param tuning
+- Clustering
