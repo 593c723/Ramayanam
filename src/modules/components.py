@@ -2,6 +2,7 @@ import pandas as pd
 import re
 import nltk
 from nltk import Text
+from unidecode import unidecode
 def get_char_list():
     #would have been better to use the above option- manual cleaning is disgraceful
     not_nouns = ['air', 'beauty', 'buddhist', 'cancer', 'fame', 'fate', 'fire', 'fortune', 'glory', 'honour', 'java', 'justice', 'passim', 'lava', 'modesty', 'ocean', 'rain', 'right', 'thunderer', 'trident', 'virtue', 'wind', 'moon', 'sun']
@@ -36,7 +37,7 @@ def nltk_text():
     txt = tx.readlines()
     orig_text = ""
     for t in txt:
-        orig_text += t.lower()
+        orig_text += unidecode(t.lower())
 
     tokzr = nltk.tokenize.WhitespaceTokenizer()
     T_orig = Text(tokzr.tokenize(orig_text)) #from original text
@@ -78,6 +79,8 @@ def books_to_chaps(): #book to chapters map
             b_name = x.strip()
             c_li = []
     b_c[b_name] = c_li
+    b_c['BOOK VI.'] = b_c['BOOK VI.'][:-1]
+    b_c['BOOK VI.'].append('Canto CXXX. The Consecration.')
     return b_c #dict_keys(['book', 'Book I.', 'BOOK II.', 'BOOK III.', 'BOOK IV.', 'BOOK V.', 'BOOK VI.'])
 
 

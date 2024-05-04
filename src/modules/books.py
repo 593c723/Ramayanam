@@ -33,11 +33,11 @@ def get_graphs():
           ctbw[ctbw.Book==i],
           source='Source', target='Target',
           edge_attr=['Weight', 'weight_inv', 'vader'])
-          for i in range(1, 7)]
+          for i in range(1, 8)]
     return graphs
 def get_partitions(graphs):
     partitions = []
-    for i in range(0, 6):
+    for i in range(0, 7):
         G = graphs[i]
         # Find modularity
         part = community.best_partition(G)
@@ -54,7 +54,7 @@ def sem_color(val):
 def sent_clusts(graphs, partitions): #set colors for graphs, returns themes
     # sets colors(node, edges), calcs theme(ie., sentiment aggregate for each relation)
     theme = [] #pos, neg tuple for each book
-    for i in range(6):
+    for i in range(7):
         graph = graphs[i] 
         part = partitions[i]
         nodes = graph.nodes()

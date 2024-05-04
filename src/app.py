@@ -31,7 +31,7 @@ st.markdown(style, unsafe_allow_html=True)
 # )
 
 
-st.sidebar.title('What do you feel like Exploring?')
+# st.sidebar.title('What do you feel like Exploring?')
 # option=st.sidebar.selectbox('select graph',('Cenralities','Karate', 'GOT'))
 # option=st.sidebar.('select graph')
 
@@ -73,8 +73,8 @@ with tab1:
     # # is a slider the best option?
 
     st.header("Pick a Book!")
-
-    radio = st.radio('', ['Book 1','Book 2', 'Book 3', 'Book 4', 'Book 5'])
+    st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
+    radio = st.radio('', ['Book 1','Book 2', 'Book 3', 'Book 4', 'Book 5', 'Book 6'])
 
     st.write('<style>div.row-widget.stRadio > div{flex-direction:row;line-height: 200%;}</style>', unsafe_allow_html=True)
 
@@ -90,7 +90,10 @@ with tab1:
         my_book = 4
     if radio == 'Book 5':
         my_book = 5
-        
+    if radio == 'Book 6':
+        my_book = 6   
+
+    
 
             # my_book = st.select_slider('', options=[1,2,3,4,5])
     theme = books.get_theme(themes, my_book)
@@ -133,7 +136,10 @@ with tab1:
 
     with cols[0]:
         st.header('Summary - KCore')
-        kcore = books.get_kcore(graphs[my_book], 5)
+        if my_book == 6:
+            kcore = books.get_kcore(graphs[my_book], 4)
+        else:
+            kcore = books.get_kcore(graphs[my_book], 5)
         kcore_net = books.get_network(kcore)
         components.html(kcore_net.read(), height = 750)
 
@@ -171,7 +177,7 @@ with tab2:
         graphs = cantos.get_graphs()
         # themes = cantos.sent_clusts(graphs)
         st.header("Pick a Book!")
-        rad = st.radio('', ['Book1','Book2', 'Book3', 'Book4', 'Book5'])
+        rad = st.radio('', ['Book1','Book2', 'Book3', 'Book4', 'Book5', 'Book6'])
         st.write('<style>div.row-widget.stRadio > div{flex-direction:row;line-height: 200%;}</style>', unsafe_allow_html=True)
         if rad == 'Book1':
             ch_book = 1
@@ -183,10 +189,12 @@ with tab2:
             ch_book = 4
         if rad == 'Book5':
             ch_book = 5
+        if rad == 'Book6':
+            ch_book = 6
         st.header(f"Book: {ch_book}")
 
-        boo_keys = ['Book I.', 'BOOK II.', 'BOOK III.', 'BOOK IV.', 'BOOK V.']
-        boos = [i for i in range(1, 6)]
+        boo_keys = ['Book I.', 'BOOK II.', 'BOOK III.', 'BOOK IV.', 'BOOK V.', 'BOOK VI.']
+        boos = [i for i in range(1, 7)]
         boo_keys_num = dict(zip(boos, boo_keys))
         # boo = "book"
         boo = boo_keys_num[ch_book] # map 1: "book I." etc
