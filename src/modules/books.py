@@ -34,8 +34,8 @@ def scalar_to_hex(old_value, old_min, old_max):
 scalar_to_hex(0.80520, -1, 1)
 
 def get_graphs():
-    # ctbw = pd.read_csv("src/streamlit_data/sentiments_books.csv", encoding = 'utf-8')
-    ctbw = pd.read_csv("ramayanam/data/csv/sentiments_books.csv", encoding = 'utf-8')
+    ctbw = pd.read_csv("src/streamlit_data/sentiments_books.csv", encoding = 'utf-8')
+    # ctbw = pd.read_csv("ramayanam/data/csv/sentiments_books.csv", encoding = 'utf-8')
     ctbw['weight_inv'] = 1/ctbw.Weight
     ctbw.head()
     graphs = [nx.from_pandas_edgelist(
