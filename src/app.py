@@ -184,7 +184,7 @@ with tab1:
             st.write(neighbour.title())
     with cols_nodes[1]:
         st.header("Character Wordcloud")
-        img = Image.open('wordcloud.png')
+        img = Image.open('/outputs/wordcloud.png')
         st.image(img)
 
 
