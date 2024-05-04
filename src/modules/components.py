@@ -3,6 +3,12 @@ import re
 import nltk
 from nltk import Text
 from unidecode import unidecode
+import path
+import sys
+
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent.parent)
+
 def get_char_list():
     #would have been better to use the above option- manual cleaning is disgraceful
     not_nouns = ['air', 'beauty', 'buddhist', 'cancer', 'fame', 'fate', 'fire', 'fortune', 'glory', 'honour', 'java', 'justice', 'passim', 'lava', 'modesty', 'ocean', 'rain', 'right', 'thunderer', 'trident', 'virtue', 'wind', 'moon', 'sun']
@@ -85,6 +91,7 @@ def books_to_chaps(): #book to chapters map
 
 
 def get_all_chaps():
-    df = pd.read_csv('../data/csv/c_b_t.csv')
+    # df = pd.read_csv("src/streamlit_data/c_b_t.csv", encoding = 'utf-8')
+    df = pd.read_csv('/data/csv/c_b_t.csv')
     all_chaps = df["Chapter"].to_list()
     return all_chaps
