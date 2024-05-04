@@ -8,6 +8,8 @@ from modules import cantos
 from PIL import Image
 
 import pandas as pd
+import path
+import sys
 
 st.set_page_config(layout="wide") #this has to be the first call
 
@@ -37,6 +39,10 @@ st.markdown(style, unsafe_allow_html=True)
 # st.sidebar.title('What do you feel like Exploring?')
 # option=st.sidebar.selectbox('select graph',('Cenralities','Karate', 'GOT'))
 # option=st.sidebar.('select graph')
+
+dir = path.Path(__file__).abspath()
+sys.append.path(dir.parent)
+
 test = pd.read_csv("streamlit_data/sentiments_books.csv")
 
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])

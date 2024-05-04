@@ -73,6 +73,7 @@ orjson==3.10.1
 packaging==23.2
 pandas==2.2.2
 parso==0.8.4
+path==16.14.0
 pillow==10.3.0
 pinecone-client==3.2.2
 platformdirs==4.2.0
