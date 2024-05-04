@@ -41,7 +41,7 @@ sys.path.append(dir.parent.parent)
 st.write(dir)
 
 st.write(sys.path)
-test = pd.read_csv("./streamlit_data/sentiments_books.csv")
+test = pd.read_csv("src/streamlit_data/sentiments_books.csv")
 
 # tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
