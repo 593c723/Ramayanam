@@ -1,7 +1,7 @@
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
-import community
+import community as plc # py louvain
 import numpy as np
 #pip install python-louvain
 import matplotlib.pyplot as plt
@@ -44,14 +44,15 @@ def get_graphs():
           edge_attr=['Weight', 'weight_inv', 'vader'])
           for i in range(1, 8)]
     return graphs
+
 def get_partitions(graphs):
     partitions = []
     for i in range(0, 7):
         G = graphs[i]
         # Find modularity
-        part = community.best_partition(G)
+        part = plc.best_partition(G)
         partitions.append(part) # returns dict = node: cluster
-        mod = community.modularity(part,G)
+        mod = plc.modularity(part,G)
     return partitions
 def sem_color(val):
     if val > 0.05:
