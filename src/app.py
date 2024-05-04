@@ -234,7 +234,7 @@ with tab2:
         with centre_cols[3]:
             char_evol = cantos.plot_evol()
             cantos.get_evol_graphs(book_start, book_end, char_evol)
-            img_evol = Image.open("../outputs/evol_plot.png")
+            img_evol = Image.open("/tmp/evol_plot.png")
             st.image(img_evol)
 
         st.header("Pick a Canto!")
@@ -266,7 +266,7 @@ with tab2:
         with cols[0]:
             st.header('Dendogram')
             cantos.dendo(my_chap)
-            img = Image.open("../outputs/dendo.png")
+            img = Image.open("/tmp/dendo.png")
             cols[0].image(img)
         with cols[1]:
             st.header('Network')
