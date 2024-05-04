@@ -167,8 +167,8 @@ def get_network(graph): #graphs[n] element for nth graph
                 # node_distance=420,
                 # central_gravity=0.50,
                 # spring_length=110,
-                # spring_strength=0.30,
-                # damping=0.95
+                spring_strength=0.30,
+                damping=0.95
                        )
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
