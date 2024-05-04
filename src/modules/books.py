@@ -16,7 +16,7 @@ import sys
 
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)
-
+print(sys.path)
 
 def scalar_to_hex(old_value, old_min, old_max):
     # old_min = -1, old_max = 1 :: vader
