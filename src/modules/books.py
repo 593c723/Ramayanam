@@ -157,7 +157,7 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
     plt.yticks(np.arange(0.0, 1.0, 0.1))
     plt.xticks(np.arange(1, 6, 1))
 
-    plt.savefig("./outputs/centrality.png")
+    plt.savefig("src/outputs/centrality.png")
 
 def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
