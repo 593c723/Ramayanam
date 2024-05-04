@@ -95,6 +95,6 @@ def books_to_chaps(): #book to chapters map
 
 def get_all_chaps():
     # df = pd.read_csv("src/streamlit_data/c_b_t.csv", encoding = 'utf-8')
-    df = pd.read_csv('/data/csv/c_b_t.csv')
+    df = pd.read_csv('data/csv/c_b_t.csv')
     all_chaps = df["Chapter"].to_list()
     return all_chaps
