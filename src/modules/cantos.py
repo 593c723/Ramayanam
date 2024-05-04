@@ -18,7 +18,7 @@ import path
 import sys
 
 dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent)
+sys.path.append(dir.parent.parent.parent)
 
 
 
@@ -36,7 +36,7 @@ def scalar_to_hex(old_value, old_min, old_max):
 scalar_to_hex(0.80520, -1, 1)
 
 def get_graphs():
-    ctbw = pd.read_csv("src/streamlit_data/sentiments_chaps.csv", encoding = 'utf-8')
+    ctbw = pd.read_csv("data/csv/sentiments_chaps.csv", encoding = 'utf-8')
     # ctbw = pd.read_csv("../data/csv/sentiments_chaps.csv", encoding = 'utf-8')
     ctbw['weight_inv'] = 1/ctbw.Weight
     ctbw.head()
@@ -166,7 +166,7 @@ def get_network(graph): #graphs[n] element for nth graph
     return HtmlFile
 
 def dendo(canto):
-    cpo = pd.read_csv("src/streamlit_data/clusts.csv", encoding = 'utf-8')
+    cpo = pd.read_csv("data/csv/clusts.csv", encoding = 'utf-8')
     r = (
     cpo.query(f"Canto == {canto}"))
     occ = r.Values.to_list()
@@ -184,7 +184,7 @@ def dendo(canto):
     plt.savefig("/tmp/dendo.png")
 
 def plot_evol(): #chapter name
-    df = pd.read_csv("src/streamlit_data/c_b_t.csv", encoding = 'utf-8')
+    df = pd.read_csv("data/csv/c_b_t.csv", encoding = 'utf-8')
     chars = components.get_char_list()[0]
     existing = []
     char_evol = {}

@@ -17,7 +17,8 @@ def get_char_list():
     not_nouns = ['air', 'beauty', 'buddhist', 'cancer', 'fame', 'fate', 'fire', 'fortune', 'glory', 'honour', 'java', 'justice', 'passim', 'lava', 'modesty', 'ocean', 'rain', 'right', 'thunderer', 'trident', 'virtue', 'wind', 'moon', 'sun']
     # refer text_pre_proc ipynb
     
-    ch = open("../data/txt/chars.txt", 'r+', encoding='utf-8')
+    ch = open("data/txt/chars.txt", 'r+', encoding='utf-8')
+    # ch = open("../data/txt/chars.txt", 'r+', encoding='utf-8')
     chs = ch.readlines()
     c_list = []
     characters = []
@@ -56,7 +57,8 @@ def nltk_text():
     #returns list of len 1 - processed string; Text : Processed and original
 
 def boot(): #book to text
-    file = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
+    file = open("data/txt/d.txt", 'r', encoding = 'utf-8')
+    # file = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
     books = {}
     i = 0
     curr_boo = []
