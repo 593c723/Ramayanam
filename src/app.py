@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 from modules import components as comp
 from  modules import books
 from modules import cantos
+
 from PIL import Image
 
 st.set_page_config(layout="wide") #this has to be the first call
