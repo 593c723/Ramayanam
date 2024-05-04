@@ -7,7 +7,9 @@ from modules import cantos
 
 from PIL import Image
 
-import pandas as pd
+#test
+# import pandas as pd 
+
 import path
 import sys
 
@@ -41,7 +43,7 @@ sys.path.append(dir.parent.parent)
 st.write(dir)
 
 st.write(sys.path)
-test = pd.read_csv("src/streamlit_data/sentiments_books.csv")
+# test = pd.read_csv("src/streamlit_data/sentiments_books.csv")
 
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
