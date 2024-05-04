@@ -36,10 +36,6 @@ st.markdown(style, unsafe_allow_html=True)
 # )
 
 
-# st.sidebar.title('What do you feel like Exploring?')
-# option=st.sidebar.selectbox('select graph',('Cenralities','Karate', 'GOT'))
-# option=st.sidebar.('select graph')
-
 dir = path.Path(__file__).abspath()
 sys.append.path(dir.parent)
 
