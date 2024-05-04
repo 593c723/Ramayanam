@@ -163,8 +163,12 @@ def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
-    nt.save_graph('src/outputs/netvis.html')
-    HtmlFile = open(f'src/outputs/netvis.html', 'r', encoding='utf-8')
+    path = '/tmp'
+    nt.save_graph(f'{path}/netvis.html')
+    HtmlFile = open(f'{path}/netvis.html', 'r', encoding='utf-8')
+#local
+    # nt.save_graph('src/outputs/netvis.html')
+    # HtmlFile = open(f'src/outputs/netvis.html', 'r', encoding='utf-8')
     return HtmlFile
 
 def get_kcore(graph, k):
