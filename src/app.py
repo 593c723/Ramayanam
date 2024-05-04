@@ -66,22 +66,27 @@ with tab1:
     # """Write a dropdown with node selections, to get list as input to display centrality ranks 
     # with only people chosen by user, """
     cents = books.DegreeCentrality(graphs)
-    books.gen_centrality_plot(cents)
-    img = Image.open("src/outputs/centrality.png")
-    col1.image(img)
 
-    cents = books.BtwCentrality(graphs)
-    books.gen_centrality_plot(cents)
-    img = Image.open("src/outputs/centrality.png")
-    col2.image(img)
 
-    cents = books.PRCentrality(graphs)
-    books.gen_centrality_plot(cents)
-    img = Image.open("src/outputs/centrality.png")
-    col3.image(img)
+    # books.gen_centrality_plot(cents)
+    # img = Image.open("src/outputs/centrality.png")
+    # col1.image(img)
+
+    # cents = books.BtwCentrality(graphs)
+    # books.gen_centrality_plot(cents)
+    # img = Image.open("src/outputs/centrality.png")
+    # col2.image(img)
+
+    # cents = books.PRCentrality(graphs)
+    # books.gen_centrality_plot(cents)
+    # img = Image.open("src/outputs/centrality.png")
+    # col3.image(img)
 
     # #book-spcific data
     # # is a slider the best option?
+
+
+
 
     st.header("Pick a Book!")
     st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
