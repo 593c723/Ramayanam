@@ -37,7 +37,7 @@ st.markdown(style, unsafe_allow_html=True)
 
 
 dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent)
+sys.path.append(dir.parent)
 
 test = pd.read_csv("./streamlit_data/sentiments_books.csv")
 
