@@ -111,7 +111,7 @@ with tab1:
 
     
 
-            # my_book = st.select_slider('', options=[1,2,3,4,5])
+    # my_book = st.select_slider('', options=[1,2,3,4,5])
     theme = books.get_theme(themes, my_book)
     st.write(len(themes))
     st.header(f'Book: {my_book}')
@@ -184,6 +184,7 @@ with tab1:
             st.write(neighbour.title())
     with cols_nodes[1]:
         st.header("Character Wordcloud")
+        st.write(sys.path)
         img = Image.open('src/outputs/wordcloud.png')
         st.image(img)
 
