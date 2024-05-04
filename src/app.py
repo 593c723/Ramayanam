@@ -67,17 +67,17 @@ with tab1:
     # with only people chosen by user, """
     cents = books.DegreeCentrality(graphs)
     books.gen_centrality_plot(cents)
-    img = Image.open("../outputs/centrality.png")
+    img = Image.open("src/outputs/centrality.png")
     col1.image(img)
 
     cents = books.BtwCentrality(graphs)
     books.gen_centrality_plot(cents)
-    img = Image.open("../outputs/centrality.png")
+    img = Image.open("src/outputs/centrality.png")
     col2.image(img)
 
     cents = books.PRCentrality(graphs)
     books.gen_centrality_plot(cents)
-    img = Image.open("../outputs/centrality.png")
+    img = Image.open("src/outputs/centrality.png")
     col3.image(img)
 
     # #book-spcific data
