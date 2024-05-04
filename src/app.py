@@ -45,15 +45,15 @@ st.markdown(style, unsafe_allow_html=True)
 # st.write(sys.path)
 # test = pd.read_csv("src/streamlit_data/sentiments_books.csv")
 
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent)
+
+    
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
 with tab1:
-    dir = path.Path(__file__).abspath()
-    sys.path.append(dir.parent.parent)
-
     st.write(sys.path)
     st.write(dir)
-    st.title('kiOWBUVALIS')
 
     graphs = books.get_graphs()
     partitions = books.get_partitions(graphs)
@@ -190,7 +190,7 @@ with tab1:
     with cols_nodes[1]:
         st.header("Character Wordcloud")
         
-        img = Image.open('/src/outputs/wordcloud.png')
+        img = Image.open('src/wordcloud.png')
         st.image(img)
 
 
