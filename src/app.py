@@ -54,6 +54,7 @@ with tab1:
     st.write(sys.path)
     st.write(dir)
     st.title('kiOWBUVALIS')
+
     graphs = books.get_graphs()
     partitions = books.get_partitions(graphs)
     themes = books.sent_clusts(graphs, partitions)
@@ -189,7 +190,7 @@ with tab1:
     with cols_nodes[1]:
         st.header("Character Wordcloud")
         
-        img = Image.open('src/outputs/wordcloud.png')
+        img = Image.open('/src/outputs/wordcloud.png')
         st.image(img)
 
 
