@@ -68,19 +68,19 @@ with tab1:
     cents = books.DegreeCentrality(graphs)
 
 
-    # books.gen_centrality_plot(cents)
-    # img = Image.open("src/outputs/centrality.png")
-    # col1.image(img)
+    books.gen_centrality_plot(cents)
+    img = Image.open("/tmp/centrality.png")
+    col1.image(img)
 
-    # cents = books.BtwCentrality(graphs)
-    # books.gen_centrality_plot(cents)
-    # img = Image.open("src/outputs/centrality.png")
-    # col2.image(img)
+    cents = books.BtwCentrality(graphs)
+    books.gen_centrality_plot(cents)
+    img = Image.open("/tmp/centrality.png")
+    col2.image(img)
 
-    # cents = books.PRCentrality(graphs)
-    # books.gen_centrality_plot(cents)
-    # img = Image.open("src/outputs/centrality.png")
-    # col3.image(img)
+    cents = books.PRCentrality(graphs)
+    books.gen_centrality_plot(cents)
+    img = Image.open("/tmp/centrality.png")
+    col3.image(img)
 
     # #book-spcific data
     # # is a slider the best option?
@@ -184,7 +184,7 @@ with tab1:
             st.write(neighbour.title())
     with cols_nodes[1]:
         st.header("Character Wordcloud")
-        img = Image.open('../outputs/wordcloud.png')
+        img = Image.open('wordcloud.png')
         st.image(img)
 
 
