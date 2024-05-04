@@ -166,7 +166,7 @@ def get_network(graph): #graphs[n] element for nth graph
     nt.repulsion(
                 # node_distance=420,
                 # central_gravity=0.50,
-                spring_length=10,
+                spring_length=80,
                 spring_strength=0.30,
                 damping=0.95
                        )
