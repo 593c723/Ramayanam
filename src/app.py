@@ -40,7 +40,7 @@ st.markdown(style, unsafe_allow_html=True)
 
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)
-st.write(sys.path)
+
 # st.write(books.sys_path())
 
 # st.write(dir)
@@ -50,6 +50,7 @@ st.write(sys.path)
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
 with tab1:
+    st.write(sys.path)
     graphs = books.get_graphs()
     partitions = books.get_partitions(graphs)
     themes = books.sent_clusts(graphs, partitions)
