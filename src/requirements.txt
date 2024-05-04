@@ -91,7 +91,8 @@ python-dateutil==2.9.0.post0
 python-louvain==0.16
 pytz==2024.1
 pyvis==0.3.2
-pywin32==306
+# pywin32==306
+pypiwin32==223 
 PyYAML==6.0.1
 pyzmq==26.0.2
 referencing==0.34.0
