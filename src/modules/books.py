@@ -60,6 +60,8 @@ def sem_color(val):
         color = 'green'
     if val < 0.05:
         color = 'red'
+    if val == 0.05:
+        color = 'yellow'
     return color
 def sent_clusts(graphs, partitions): #set colors for graphs, returns themes
     # sets colors(node, edges), calcs theme(ie., sentiment aggregate for each relation)
