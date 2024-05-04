@@ -38,8 +38,10 @@ st.markdown(style, unsafe_allow_html=True)
 # )
 
 
-dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent)
+# dir = path.Path(__file__).abspath()
+# sys.path.append(dir.parent.parent)
+
+st.write(books.sys_path())
 
 # st.write(dir)
 # st.write(sys.path)
