@@ -165,9 +165,9 @@ def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
     nt.repulsion(
                 # node_distance=420,
-                central_gravity=0.33,
+                central_gravity=0.10,
                 spring_length=110,
-                spring_strength=0.10,
+                spring_strength=0.30,
                 damping=0.95
                        )
     nt.from_nx(graph)
