@@ -7,6 +7,8 @@ from modules import cantos
 
 from PIL import Image
 
+import pandas as pd
+
 st.set_page_config(layout="wide") #this has to be the first call
 
 style = "<style>h2, h1, p, .iframe, h3 {text-align: center;} #tabs-bui1800-tab-0 {font-size: 40px;} </style>" # centers header, titles and p
@@ -36,6 +38,7 @@ st.markdown(style, unsafe_allow_html=True)
 # option=st.sidebar.selectbox('select graph',('Cenralities','Karate', 'GOT'))
 # option=st.sidebar.('select graph')
 
+test = pd.read_csv("./streamlit_data/sentiments_books.csv")
 
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
