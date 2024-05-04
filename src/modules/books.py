@@ -1,7 +1,7 @@
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
-import community as plc # py louvain
+import community.community_louvain as plc # py louvain
 import numpy as np
 #pip install python-louvain
 import matplotlib.pyplot as plt
