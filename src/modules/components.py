@@ -9,6 +9,9 @@ import sys
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent.parent)
 
+def sys_path():
+    return sys.path
+
 def get_char_list():
     #would have been better to use the above option- manual cleaning is disgraceful
     not_nouns = ['air', 'beauty', 'buddhist', 'cancer', 'fame', 'fate', 'fire', 'fortune', 'glory', 'honour', 'java', 'justice', 'passim', 'lava', 'modesty', 'ocean', 'rain', 'right', 'thunderer', 'trident', 'virtue', 'wind', 'moon', 'sun']
