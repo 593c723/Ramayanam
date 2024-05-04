@@ -52,8 +52,8 @@ sys.path.append(dir.parent.parent)
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
 with tab1:
-    st.write(sys.path)
-    st.write(dir)
+    # st.write(sys.path)
+    # st.write(dir)
 
     graphs = books.get_graphs()
     partitions = books.get_partitions(graphs)
@@ -118,7 +118,7 @@ with tab1:
 
     # my_book = st.select_slider('', options=[1,2,3,4,5])
     theme = books.get_theme(themes, my_book)
-    st.write(len(themes))
+    # st.write(len(themes))
     st.header(f'Book: {my_book}')
     st.subheader(f'Themes - Positive : {"{:.2f}".format(theme[1])}%, Negative : {"{:.2f}".format(theme[2])}%')
 
