@@ -40,7 +40,7 @@ st.markdown(style, unsafe_allow_html=True)
 
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)
-
+st.write(sys.path)
 # st.write(books.sys_path())
 
 # st.write(dir)
@@ -184,7 +184,7 @@ with tab1:
             st.write(neighbour.title())
     with cols_nodes[1]:
         st.header("Character Wordcloud")
-        st.write(sys.path)
+        
         img = Image.open('src/outputs/wordcloud.png')
         st.image(img)
 
