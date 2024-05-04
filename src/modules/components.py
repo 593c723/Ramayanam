@@ -75,7 +75,8 @@ def boot(): #book to text
     return books
 
 def books_to_chaps(): #book to chapters map
-    f = open('../data/txt/chaps.txt', 'r', encoding = 'utf-8')
+    f = open('data/txt/chaps.txt', 'r', encoding = 'utf-8')
+    # f = open('../data/txt/chaps.txt', 'r', encoding = 'utf-8')
     d = f.readlines()
     b_c = {}
     c_li = []
