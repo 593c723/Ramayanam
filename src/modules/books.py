@@ -163,13 +163,13 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
 
 def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
-    nt.repulsion(
-                # node_distance=420,
-                # central_gravity=0.50,
-                spring_length=80,
-                spring_strength=0.30,
-                damping=0.95
-                       )
+    # nt.repulsion(
+    #             # node_distance=420,
+    #             # central_gravity=0.50,
+    #             spring_length=80,
+    #             spring_strength=0.30,
+    #             damping=0.95
+    #                    )
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
     path = '/tmp'
