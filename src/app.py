@@ -37,9 +37,9 @@ st.markdown(style, unsafe_allow_html=True)
 
 
 dir = path.Path(__file__).abspath()
-sys.append.path(dir.parent)
+sys.path.append(dir.parent)
 
-test = pd.read_csv("streamlit_data/sentiments_books.csv")
+test = pd.read_csv("./streamlit_data/sentiments_books.csv")
 
 tab1, tab2 = st.tabs(["Book View", "Chapter View"])
 
