@@ -177,8 +177,8 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
         deg_list.append(new_vals)
 
     evol_df = pd.DataFrame.from_records(deg_list, index=[i+1 for i in range(len(deg))]).fillna(0)
-    plot_list = ['rama', 'kaikeyi','lakshman', 'sita', "dasaratha", 'hanuman', 'bharat', 'ayodhya',
-                'ravan', 'kumbhakarna', 'vibhishan']
+    plot_list = ['rama','lakshman', 'sita', "dasaratha", 'hanuman', 'bharat', 'ayodhya',
+                'ravan',  'sugriva','vasishtha']
     print(evol_df.shape)
     plt.figure(figsize=(10,10))
 
