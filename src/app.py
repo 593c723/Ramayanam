@@ -113,7 +113,7 @@ with tab1:
 
 
     st.header("Pick a Book!")
-    st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
+    # st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
     radio = st.radio('', ['Book 1','Book 2', 'Book 3', 'Book 4', 'Book 5', 'Book 6'])
 
     st.write('<style>div.row-widget.stRadio > div{flex-direction:row;line-height: 200%;}</style>', unsafe_allow_html=True)
@@ -179,7 +179,7 @@ with tab1:
         if my_book == 6:
             kcore = books.get_kcore(graphs[my_book], 4)
         else:
-            kcore = books.get_kcore(graphs[my_book], 5)
+            kcore = books.get_kcore(graphs[my_book], 6)
         kcore_net = books.get_network(kcore)
         components.html(kcore_net.read(), height = 750)
 

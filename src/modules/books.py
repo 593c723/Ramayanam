@@ -23,6 +23,7 @@ def sys_path():
 def scalar_to_hex(old_value, old_min, old_max):
     # old_min = -1, old_max = 1 :: vader
     # frequencies(range - 0,42)
+
     new_max = 1
     new_min = 0.1
     new_value = ( (old_value - old_min) / (old_max - old_min) ) * (new_max - new_min) + new_min
@@ -31,7 +32,13 @@ def scalar_to_hex(old_value, old_min, old_max):
     rgbhex = "".join("%02X" % round(i*255) for i in rgb)
 
     return '#' + rgbhex
-scalar_to_hex(0.80520, -1, 1)
+# scalar_to_hex(0.80520, -1, 1)
+
+def custom_col(pno):# partition no. - expected range - 0-42
+    colors = ["#a56cea","#ea6cba","9AF05E", "FFFD5B", "#ffc300","#9d78dd","#76FFDC","#FF7678","#B2FF64","#64ffd2","#6491FF","#ECF998","#e7e01a","#d3d0cc","#a2baf2","#a184ab","#c50c55","#12bdf3","#2fb3af","#b59fa1","#cb5b4e","#el9239","#5876c8","#add7b1", "#daf7a6", "#e9aeb3", "#fffcc", "#d2df7f", "#ffdca6", "#ae5aab", "#oed3e3", "#ae5aab" ]
+    # colors = ["#ae5aab" for i in range(28)]
+    color = colors[pno]
+    return color
 
 def get_graphs():
     # ctbw = pd.read_csv("src/streamlit_data/sentiments_books.csv", encoding = 'utf-8')
@@ -57,6 +64,21 @@ def get_partitions(graphs):
         partitions.append(part) # returns dict = node: cluster
         mod = plc.modularity(part,G)
     return partitions
+def girvan_newman(graphs):
+    partitions = []
+    for i in range(7):
+        G = graphs[i]
+        # Find modularity
+        part = nx.community.girvan_newman(G)
+        # mod = community.modularity(part,G)
+        clusters = tuple(sorted(c) for c in next(part))
+        parts = {}
+        for i in range(len(clusters)):
+            for node in clusters[i]:
+                parts[node] = i
+        partitions.append(parts)
+    return partitions
+
 def sem_color(val):
     if val > 0.05:
         #positive
@@ -71,6 +93,8 @@ def sent_clusts(graphs, partitions): #set colors for graphs, returns themes
     theme = [] #pos, neg tuple for each book
     for i in range(7):
         graph = graphs[i] 
+        # partits = girvan_newman(graphs)
+        # part = partits[i]
         part = partitions[i]
         nodes = graph.nodes()
         values = [part.get(node) for node in graph.nodes()]
@@ -170,13 +194,13 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
 
 def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
-    # nt.repulsion(
-    #             # node_distance=420,
-    #             # central_gravity=0.50,
-    #             spring_length=80,
-    #             spring_strength=0.30,
-    #             damping=0.95
-    #                    )
+    nt.repulsion(
+                # node_distance=420,
+                # central_gravity=0.50,
+                # spring_length=80,
+                # spring_strength=0.30,
+                damping=0.98
+                       )
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
     try:
