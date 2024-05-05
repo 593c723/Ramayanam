@@ -77,17 +77,33 @@ with tab1:
 
 
     books.gen_centrality_plot(cents)
-    img = Image.open("/tmp/centrality.png")
+    try:
+        pth = "/tmp/"
+        img = Image.open(f"{pth}centrality.png")
+    except:
+        pth = ""
+        img = Image.open(f"{pth}centrality.png")
+    
     col1.image(img)
 
     cents = books.BtwCentrality(graphs)
     books.gen_centrality_plot(cents)
-    img = Image.open("/tmp/centrality.png")
+    try:
+        pth = "/tmp/"
+        img = Image.open(f"{pth}centrality.png")
+    except:
+        pth = ""
+        img = Image.open(f"{pth}centrality.png")
     col2.image(img)
 
     cents = books.PRCentrality(graphs)
     books.gen_centrality_plot(cents)
-    img = Image.open("/tmp/centrality.png")
+    try:
+        pth = "/tmp/"
+        img = Image.open(f"{pth}centrality.png")
+    except:
+        pth = ""
+        img = Image.open(f"{pth}centrality.png")
     col3.image(img)
 
     # #book-spcific data
@@ -237,7 +253,12 @@ with tab2:
         with centre_cols[3]:
             char_evol = cantos.plot_evol()
             cantos.get_evol_graphs(book_start, book_end, char_evol)
-            img_evol = Image.open("/tmp/evol_plot.png")
+            try:
+                pth = "/tmp/"
+                img_evol = Image.open(f"{pth}evol_plot.png")
+            except:
+                pth = ""
+                img_evol = Image.open(f"{pth}evol_plot.png")
             st.image(img_evol)
 
         st.header("Pick a Canto!")
@@ -269,7 +290,13 @@ with tab2:
         with cols[0]:
             st.header('Dendogram')
             cantos.dendo(my_chap)
-            img = Image.open("/tmp/dendo.png")
+            try:
+                pth = "/tmp/"
+                img = Image.open(f"{pth}dendo.png")
+            except:
+                pth = ""
+                img = Image.open(f"{pth}dendo.png")
+            
             cols[0].image(img)
         with cols[1]:
             st.header('Network')

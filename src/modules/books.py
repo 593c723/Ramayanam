@@ -35,7 +35,10 @@ scalar_to_hex(0.80520, -1, 1)
 
 def get_graphs():
     # ctbw = pd.read_csv("src/streamlit_data/sentiments_books.csv", encoding = 'utf-8')
-    ctbw = pd.read_csv("data/csv/sentiments_books.csv", encoding = 'utf-8')
+    try:
+        ctbw = pd.read_csv("data/csv/sentiments_books.csv", encoding = 'utf-8')
+    except:
+        ctbw = pd.read_csv("../data/csv/sentiments_books.csv", encoding = 'utf-8')
     ctbw['weight_inv'] = 1/ctbw.Weight
     ctbw.head()
     graphs = [nx.from_pandas_edgelist(
@@ -158,8 +161,12 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
     evol_df[plot_list].plot()
     plt.yticks(np.arange(0.0, 1.0, 0.1))
     plt.xticks(np.arange(1, 6, 1))
-
-    plt.savefig("/tmp/centrality.png")
+    try:
+        path = "/tmp/"
+        plt.savefig(f"{path}centrality.png")
+    except:
+        path = ""
+        plt.savefig(f"{path}centrality.png")
 
 def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
@@ -172,12 +179,14 @@ def get_network(graph): #graphs[n] element for nth graph
     #                    )
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
-    path = '/tmp'
-    nt.save_graph(f'{path}/netvis.html')
-    HtmlFile = open(f'{path}/netvis.html', 'r', encoding='utf-8')
+    try:
+        path = '/tmp'
+        nt.save_graph(f'{path}/netvis.html')
+        HtmlFile = open(f'{path}/netvis.html', 'r', encoding='utf-8')
+    except:
 #local
-    # nt.save_graph('src/outputs/netvis.html')
-    # HtmlFile = open(f'src/outputs/netvis.html', 'r', encoding='utf-8')
+        nt.save_graph('../outputs/netvis.html')    
+        HtmlFile = open(f'../outputs/netvis.html', 'r', encoding='utf-8')
     return HtmlFile
 
 def get_kcore(graph, k):
