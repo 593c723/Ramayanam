@@ -291,7 +291,7 @@ with tab2:
             for node in pgr:
                 st.write(node[0].title()," : ", f"{'{:.2f}'.format(node[1])}")
 
-        cols= st.columns([1,4,1])
+        cols= st.columns([1,3,1])
 
         # with cols[0]:
         #     st.header('Dendogram')
