@@ -62,13 +62,15 @@ with tab1:
     partitions = books.get_partitions(graphs)
     themes = books.sent_clusts(graphs, partitions)
     st.title('CENTRALITIES')
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns([3,3,3,1])
     col1.header('Degree Cenratality')
     col2.header('Betweenness Centrality')
     col3.header('PageRank Centrality')
-
-
-
+    col4.write(" ")
+    col4.subheader('Legend')
+    col4.write(" ")
+    col4.write(" ")
+    col4.write(" ")
     #centrality plots
     # arrange these horizontally
     # """Write a dropdown with node selections, to get list as input to display centrality ranks 
@@ -105,7 +107,11 @@ with tab1:
         pth = ""
         img = Image.open(f"{pth}centrality.png")
     col3.image(img)
-
+    try:
+        labels = Image.open('src/legends.png')
+    except:
+        labels = Image.open('legends.png')
+    col4.image(labels)
     # #book-spcific data
     # # is a slider the best option?
 

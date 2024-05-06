@@ -178,11 +178,11 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
 
     evol_df = pd.DataFrame.from_records(deg_list, index=[i+1 for i in range(len(deg))]).fillna(0)
     plot_list = ['rama','lakshman', 'sita', "dasaratha", 'hanuman', 'bharat', 'ayodhya',
-                'ravan',  'sugriva','vasishtha']
+                'ravan','vasishtha', "indra"]
     print(evol_df.shape)
     plt.figure(figsize=(10,10))
 
-    evol_df[plot_list].plot()
+    evol_df[plot_list].plot(legend=False)
     plt.yticks(np.arange(0.0, 1.0, 0.1))
     plt.xticks(np.arange(1, 6, 1))
     try:
