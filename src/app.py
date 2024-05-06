@@ -291,19 +291,19 @@ with tab2:
             for node in pgr:
                 st.write(node[0].title()," : ", f"{'{:.2f}'.format(node[1])}")
 
-        cols= st.columns(2)
+        cols= st.columns([1,4,1])
 
-        with cols[0]:
-            st.header('Dendogram')
-            cantos.dendo(my_chap)
-            try:
-                pth = "/tmp/"
-                img = Image.open(f"{pth}dendo.png")
-            except:
-                pth = ""
-                img = Image.open(f"{pth}dendo.png")
+        # with cols[0]:
+        #     st.header('Dendogram')
+        #     cantos.dendo(my_chap)
+        #     try:
+        #         pth = "/tmp/"
+        #         img = Image.open(f"{pth}dendo.png")
+        #     except:
+        #         pth = ""
+        #         img = Image.open(f"{pth}dendo.png")
             
-            cols[0].image(img)
+            # cols[0].image(img)
         with cols[1]:
             st.header('Network')
             chap_network = cantos.get_network(graphs[my_chap])
