@@ -36,8 +36,10 @@ def scalar_to_hex(old_value, old_min, old_max):
 scalar_to_hex(0.80520, -1, 1)
 
 def get_graphs():
-    ctbw = pd.read_csv("data/csv/sentiments_chaps.csv", encoding = 'utf-8')
-    # ctbw = pd.read_csv("../data/csv/sentiments_chaps.csv", encoding = 'utf-8')
+    try:
+        ctbw = pd.read_csv("data/csv/sentiments_chaps.csv", encoding = 'utf-8')
+    except:
+        ctbw = pd.read_csv("../data/csv/sentiments_chaps.csv", encoding = 'utf-8')
     ctbw['weight_inv'] = 1/ctbw.Weight
     ctbw.head()
     graphs = [nx.from_pandas_edgelist(
@@ -158,15 +160,22 @@ def get_network(graph): #graphs[n] element for nth graph
     nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
     nt.from_nx(graph)
     # nt.show('g3.html', notebook=False)
-    path = '/tmp'
-    nt.save_graph(f'{path}/ch_netvis.html')
-    HtmlFile = open(f'{path}/ch_netvis.html', 'r', encoding='utf-8')
+    try:
+        path = '/tmp/'
+        nt.save_graph(f'{path}ch_netvis.html')
+    except:
+        path = ""
+        nt.save_graph(f'{path}ch_netvis.html')
+    HtmlFile = open(f'{path}ch_netvis.html', 'r', encoding='utf-8')
     # nt.save_graph('netvis.html')
     # HtmlFile = open(f'netvis.html', 'r', encoding='utf-8')
     return HtmlFile
 
 def dendo(canto):
-    cpo = pd.read_csv("data/csv/clusts.csv", encoding = 'utf-8')
+    try:
+        cpo = pd.read_csv("data/csv/clusts.csv", encoding = 'utf-8')
+    except:
+        cpo = pd.read_csv("../data/csv/clusts.csv", encoding = 'utf-8')
     r = (
     cpo.query(f"Canto == {canto}"))
     occ = r.Values.to_list()
@@ -181,10 +190,18 @@ def dendo(canto):
     hclust = sch.linkage(cond_mat)
     plt.figure(figsize=(10,10))
     dend = sch.dendrogram(hclust, labels=labels, orientation='right') #leaf-rotation
-    plt.savefig("/tmp/dendo.png")
+    try:
+        path = "/tmp/"
+        plt.savefig(f"{path}dendo.png")
+    except:
+        path = ""
+        plt.savefig(f"{path}dendo.png")
 
 def plot_evol(): #chapter name
-    df = pd.read_csv("data/csv/c_b_t.csv", encoding = 'utf-8')
+    try:
+        df = pd.read_csv("data/csv/c_b_t.csv", encoding = 'utf-8')
+    except:
+        df = pd.read_csv("../data/csv/c_b_t.csv", encoding = 'utf-8')
     chars = components.get_char_list()[0]
     existing = []
     char_evol = {}
@@ -226,6 +243,9 @@ def get_evol_graphs(fro, to, char_evol): #boo_start, boo_end
     # y_labels = [i for i in range(fro, to, 5)]
     y_evol = [i for i in range(0, max(maxs) + 5, 5)]
     plt.xticks(x_evol, x_labels_evol) 
-    plt.yticks(y_evol) 
-    ax.figure.savefig("/tmp/evol_plot.png")
+    plt.yticks(y_evol)
+    try:
+        ax.figure.savefig("/tmp/evol_plot.png")
+    except:
+        ax.figure.savefig("evol_plot.png")
 

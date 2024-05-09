@@ -63,9 +63,9 @@ with tab1:
     themes = books.sent_clusts(graphs, partitions)
     st.title('CENTRALITIES')
     col1, col2, col3, col4 = st.columns([3,3,3,1])
-    col1.header('Degree Cenratality')
-    col2.header('Betweenness Centrality')
-    col3.header('PageRank Centrality')
+    col1.header('Degree')
+    col2.header('Betweenness')
+    col3.header('PageRank')
     col4.write(" ")
     col4.subheader('Legend')
     col4.write(" ")
@@ -120,8 +120,9 @@ with tab1:
 
     st.header("Pick a Book!")
     # st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
+    # cols_rad= st.columns([1,6,1])
+    # with cols_rad[1]:
     radio = st.radio('', ['Book 1','Book 2', 'Book 3', 'Book 4', 'Book 5', 'Book 6'])
-
     st.write('<style>div.row-widget.stRadio > div{flex-direction:row;line-height: 200%;}</style>', unsafe_allow_html=True)
 
     
@@ -178,9 +179,9 @@ with tab1:
 
 
 
-    cols= st.columns(2)
+    cols= st.columns([1,4,1])
 
-    with cols[0]:
+    with cols[1]:
         st.header('Summary - KCore')
         if my_book == 6:
             kcore = books.get_kcore(graphs[my_book], 4)
@@ -214,8 +215,10 @@ with tab1:
             st.write(neighbour.title())
     with cols_nodes[1]:
         st.header("Character Wordcloud")
-        
-        img = Image.open('src/wordcloud.png')
+        try:
+            img = Image.open('src/wordcloud.png')
+        except:
+            img = Image.open('wordcloud.png')
         st.image(img)
 
 

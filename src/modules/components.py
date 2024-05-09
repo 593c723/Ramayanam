@@ -16,8 +16,10 @@ def get_char_list():
     #would have been better to use the above option- manual cleaning is disgraceful
     not_nouns = ['air', 'beauty', 'buddhist', 'cancer', 'fame', 'fate', 'fire', 'fortune', 'glory', 'honour', 'java', 'justice', 'passim', 'lava', 'modesty', 'ocean', 'rain', 'right', 'thunderer', 'trident', 'virtue', 'wind', 'moon', 'sun']
     # refer text_pre_proc ipynb
-    
-    ch = open("data/txt/chars.txt", 'r+', encoding='utf-8')
+    try:
+        ch = open("data/txt/chars.txt", 'r+', encoding='utf-8')
+    except:
+        ch = open("../data/txt/chars.txt", 'r+', encoding='utf-8')
     # ch = open("../data/txt/chars.txt", 'r+', encoding='utf-8')
     chs = ch.readlines()
     c_list = []
@@ -41,9 +43,15 @@ def get_char_list():
 # (mythical, so no models pre-trained on other data))
 
 def nltk_text():
-    p = open("../data/txt/proc.txt", 'r', encoding='utf-8')
+    try:
+        p = open("data/txt/proc.txt", 'r', encoding='utf-8')
+    except:
+        p = open("../data/txt/proc.txt", 'r', encoding='utf-8')
     text = p.readlines()
-    tx = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
+    try:
+        tx = open("data/txt/d.txt", 'r', encoding = 'utf-8')
+    except:
+        tx = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
     txt = tx.readlines()
     orig_text = ""
     for t in txt:
@@ -57,8 +65,10 @@ def nltk_text():
     #returns list of len 1 - processed string; Text : Processed and original
 
 def boot(): #book to text
-    file = open("data/txt/d.txt", 'r', encoding = 'utf-8')
-    # file = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
+    try:
+        file = open("data/txt/d.txt", 'r', encoding = 'utf-8')
+    except:
+        file = open("../data/txt/d.txt", 'r', encoding = 'utf-8')
     books = {}
     i = 0
     curr_boo = []
@@ -77,8 +87,10 @@ def boot(): #book to text
     return books
 
 def books_to_chaps(): #book to chapters map
-    f = open('data/txt/chaps.txt', 'r', encoding = 'utf-8')
-    # f = open('../data/txt/chaps.txt', 'r', encoding = 'utf-8')
+    try:
+        f = open('data/txt/chaps.txt', 'r', encoding = 'utf-8')
+    except:
+        f = open('../data/txt/chaps.txt', 'r', encoding = 'utf-8')
     d = f.readlines()
     b_c = {}
     c_li = []
@@ -98,6 +110,9 @@ def books_to_chaps(): #book to chapters map
 
 def get_all_chaps():
     # df = pd.read_csv("src/streamlit_data/c_b_t.csv", encoding = 'utf-8')
-    df = pd.read_csv('data/csv/c_b_t.csv')
+    try:
+        df = pd.read_csv('data/csv/c_b_t.csv')
+    except:
+        df = pd.read_csv('../data/csv/c_b_t.csv')
     all_chaps = df["Chapter"].to_list()
     return all_chaps
