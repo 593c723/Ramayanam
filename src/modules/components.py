@@ -5,6 +5,7 @@ from nltk import Text
 from unidecode import unidecode
 import path
 import sys
+from modules import Data_pre_proc
 
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent.parent)
@@ -33,7 +34,9 @@ def get_char_list():
             characters.append(charac)
         c_list.append({ "Character": components[0], "Occurences" : occ})
     characters = [c.lower() for c in characters]
-    pn = [word for word in characters if (word not in not_nouns)] # proper-nouns; hopefully:')
+    pn = [word for word in characters if (word not in not_nouns)]
+
+    ch.close()
 
     return (pn, not_nouns, characters)
 
@@ -61,6 +64,9 @@ def nltk_text():
     T_orig = Text(tokzr.tokenize(orig_text)) #from original text
     T_proc = Text(tokzr.tokenize("".join(text))) #from processed text
     
+    tx.close()
+    p.close()
+
     return (text, T_orig, T_proc)
     #returns list of len 1 - processed string; Text : Processed and original
 
@@ -84,7 +90,29 @@ def boot(): #book to text
             i += 1
             curr_boo = []
     books['BOOK ' + str(i)] = "".join(curr_boo)
+
+    file.close()
+
     return books
+
+def books_to_text(): # better dict keys
+    try:
+        f_df = pd.read_csv("data/csv/c_b_t.csv", encoding='utf-8')
+    except:
+        f_df = pd.read_csv("../data/csv/c_b_t.csv",  encoding = 'utf-8')   
+    f_df['Text'] = f_df['Text'].apply(lambda x : re.sub("'s", "", (x)))
+    f_df = Data_pre_proc.pre_proc(f_df)
+
+    bs = [x for x in f_df["Book"].unique()]
+    text = []
+    dictofbooks = {}
+    for i in range(len(bs)):
+        # texts[i] = [rows["Text"] for idx, rows in f_df.iterrows() if(rows["Book"] == bs[i]) ]
+        for idx, rows in f_df.iterrows():
+            if rows["Book"] == bs[i]: #ie., text belongs to a certain book
+                text.append(rows["Text"])
+        dictofbooks.update({i:text})
+    return dictofbooks
 
 def books_to_chaps(): #book to chapters map
     try:
@@ -105,6 +133,9 @@ def books_to_chaps(): #book to chapters map
     b_c[b_name] = c_li
     b_c['BOOK VI.'] = b_c['BOOK VI.'][:-1]
     b_c['BOOK VI.'].append('Canto CXXX. The Consecration.')
+
+    f.close()
+
     return b_c #dict_keys(['book', 'Book I.', 'BOOK II.', 'BOOK III.', 'BOOK IV.', 'BOOK V.', 'BOOK VI.'])
 
 

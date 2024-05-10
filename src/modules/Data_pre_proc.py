@@ -4,7 +4,7 @@ import nltk
 from unidecode import unidecode
 stopwords = nltk.corpus.stopwords.words('english')
 stopwords = stopwords + ['thou', 'thy', 'thine', 'thus', 'thee', 'may']
-punc = ['.', ',', '()']
+punc = ['.', ',', '()', ';']
 
 def rem_stp(txt):
     txt = txt.split()
