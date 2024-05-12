@@ -22,7 +22,7 @@ st.markdown(style, unsafe_allow_html=True)
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)
 sys.path.append(dir.parent)
-st.write(sys.path)
+# st.write(sys.path)
 
 graphs = books.get_graphs()
 partitions = books.get_partitions(graphs)
@@ -56,7 +56,7 @@ col1.image(img)
 cents = books.BtwCentrality(graphs)
 books.gen_centrality_plot(cents)
 try:
-    pth = "/tmp/pages/"
+    pth = "/tmp/"
     img = Image.open(f"{pth}centrality.png")
 except:
     pth = "pages/"
@@ -66,7 +66,7 @@ col2.image(img)
 cents = books.PRCentrality(graphs)
 books.gen_centrality_plot(cents)
 try:
-    pth = "/tmp/pages/"
+    pth = "/tmp/"
     img = Image.open(f"{pth}centrality.png")
 except:
     pth = "pages/"
