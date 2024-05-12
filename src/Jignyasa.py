@@ -74,7 +74,7 @@ st.sidebar.markdown('''
 st.subheader("Swagatam!")
 st.write("")
 st.write("There are some things in life that try their best to be constants.")
-st.write("""The Ramayanam has been one such thing for me. A great epic, told over the ages, 
+st.write("""The Ramayanam has been one such thing for me. A great epic passed down over the ages, 
          there are not many in India who haven’t heard its name. The fascination that 
          this story never fails to provoke in me is rooted in childish wonder - born of tales told 
          in confidant tones, after much pleading and persuasion, furthered, by the encounters with 
