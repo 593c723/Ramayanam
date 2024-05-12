@@ -45,7 +45,7 @@ cents = books.DegreeCentrality(graphs)
 
 books.gen_centrality_plot(cents)
 try:
-    pth = "/tmp/pages/"
+    pth = "/pages/tmp/"
     img = Image.open(f"{pth}centrality.png")
 except:
     pth = "pages/"
