@@ -15,8 +15,16 @@ import sys
 
 st.set_page_config(page_title="Books",  layout="wide",) #this has to be the first call
 
-style = "<style>h2, h1, p, .iframe, h3 {text-align: center;} #tabs-bui1800-tab-0 {font-size: 40px;} </style>" # centers header, titles and p
+style = "<style>h2,p, h1, .iframe, h3 {text-align: center;}  h3 {font-size: 20px;} </style>" # centers header, titles and p
 st.markdown(style, unsafe_allow_html=True)
+
+st.sidebar.markdown('''
+## Books View
+## Chapter View
+- [Plot-Evolution](#evolution-characters)
+- [Cantos](#pick-a-canto)                   
+<p>Hi dsblia</p>
+''', unsafe_allow_html=True)
 
 
 dir = path.Path(__file__).abspath()
@@ -27,7 +35,11 @@ sys.path.append(dir.parent)
 graphs = books.get_graphs()
 partitions = books.get_partitions(graphs)
 themes = books.sent_clusts(graphs, partitions)
+st.subheader("""Take a look at [this]() if you want to know more about any of the following visuals !""")
 st.title('CENTRALITIES')
+st.subheader("""Normalised Centrality plots for different characters(refer legend below), over the six books""")
+
+
 col1, col2, col3, col4 = st.columns([3,3,3,1])
 col1.header('Degree')
 col2.header('Betweenness')
@@ -82,8 +94,10 @@ col4.image(labels)
 
 
 
-
+st.markdown("""---""")
 st.header("Pick a Book!")
+st.subheader("""All visuals henceforth will change to mirror what you pick.""")
+
 # st.subheader("Bala Kand, Ayodhya Kand, Aranya Kand, Kishkindha Kand, Sunder Kand, Yuddha Kand")
 # cols_rad= st.columns([1,6,1])
 # with cols_rad[1]:
@@ -137,17 +151,24 @@ with cols[2]:
 # HtmlFile = open("kcore.html", 'r', encoding='utf-8')
 # source_code = HtmlFile.read() 
 # components.html(source_code, height = 900)
+st.markdown("""---""")
 
 st.header('Network')
+st.subheader("The network corresponding to the book you picked! ")
+st.subheader("""Feel free to zoom-in and look at the characters and their relationships, click on, drag and play around a little! Use the 'Ask the Network' component at the end of this page to find information on a specific character. Scroll down to the k-core below for the condensed version!""")
+
+
 book_network = books.get_network(graphs[my_book])
 components.html(book_network.read(), height = 750)
 
 
 
 cols= st.columns([1,4,1])
-
+st.markdown("""---""")
 with cols[1]:
     st.header('Summary - KCore')
+    st.subheader("""A k-core representation of the main network. k = 4 for book 6, and 6 for all others.""")
+
     if my_book == 6:
         kcore = books.get_kcore(graphs[my_book], 4)
     else:
@@ -155,11 +176,15 @@ with cols[1]:
     kcore_net = books.get_network(kcore)
     components.html(kcore_net.read(), height = 750)
 
+st.subheader("""If you have a specific character in mind, select them from the dropdown to view their centrality scores and neighbors. """)
+st.subheader("Need some inspiration? Use the wordcloud!")
 
 cols_nodes= st.columns(2)
 # query the network : node - to return - centralities, neighbours
 with cols_nodes[0]:
+
     st.header('Ask the Network')
+
     node_options = graphs[my_book].nodes
     my_node = st.selectbox('Select Character', node_options)
 

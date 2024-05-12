@@ -231,5 +231,5 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
         path = "/tmp"
         plt.savefig(f"{path}/centrality.png")
     except:
-        path = ""
+        path = "pages/"
         plt.savefig(f"{path}/centrality.png")

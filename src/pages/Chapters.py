@@ -16,7 +16,7 @@ import sys
 st.set_page_config(page_title="Chapters", layout="wide",) #this has to be the first call
 
 
-style = "<style>h2, h1, p, .iframe, h3 {text-align: center;} #tabs-bui1800-tab-0 {font-size: 40px;} </style>" # centers header, titles and p
+style = "<style>h2,p, h1, .iframe, h3 {text-align: center;}  h3 {font-size: 20px;} </style>" # centers header, titles and p
 st.markdown(style, unsafe_allow_html=True)
 
 
@@ -41,7 +41,7 @@ if rad == 'Book5':
     ch_book = 5
 if rad == 'Book6':
     ch_book = 6
-st.header(f"Book: {ch_book}")
+st.title(f"Book: {ch_book}")
 
 boo_keys = ['Book I.', 'BOOK II.', 'BOOK III.', 'BOOK IV.', 'BOOK V.', 'BOOK VI.']
 boos = [i for i in range(1, 7)]
@@ -56,8 +56,27 @@ my_chaps = all_cantos_dict[boo] # all chaps in given boo my_book
 book_start = all_chapters.index(my_chaps[0])
 book_end = all_chapters.index(my_chaps[len(my_chaps)-1])# last chptr
 
+st.sidebar.markdown('''
+## Hey There!
+- [Introduction]()
+## Books View
+- [Centralities]()
+- [Networks]()
+- [K-Core]()
+- [Nodes - Characters]()
+## Chapter View
+- [Plot-Evolution](http://localhost:8501/Chapters#evolution-characters)
+- [Cantos](http://localhost:8501/Chapters#pick-a-canto) 
+-------
+Got Questions? Criticism? Feedback? Wanna Collaborate? Chat about mutual interests? Feel free to reach out to me!
+- [LinkedIn](https://www.linkedin.com/in/sumana-sridharan/)                  
+- [sumanasridharan@gmail.com](sumanasridharan@gmail.com)             
+''', unsafe_allow_html=True)
+
 # evolution plot
-st.subheader("Evolution : Characters")
+st.header("Evolution : Characters")
+st.subheader("""Change the Book above to see the evolution of the plot in the graph below. It plots the existing(continued appearances), newly introduced and disappearing characters over different chapters in the book.""")
+
 centre_cols = st.columns([0.3,0.6,0.3,2.0,0.3, 0.5, 0.3])
 with centre_cols[3]:
     char_evol = cantos.plot_evol()
@@ -70,7 +89,10 @@ with centre_cols[3]:
         img_evol = Image.open(f"{pth}evol_plot.png")
     st.image(img_evol)
 
+st.markdown("""---""")
+
 st.header("Pick a Canto!")
+
 my_chap_name = st.selectbox('Select', my_chaps)
 chap_idx = all_chapters.index(my_chap_name)
 
