@@ -2,8 +2,8 @@ import re
 import string
 import nltk
 from unidecode import unidecode
-stopwords = nltk.download('stopwords')
-# stopwords = nltk.corpus.stopwords.words('english')
+nltk.download('stopwords')
+stopwords = nltk.corpus.stopwords.words('english')
 stopwords = stopwords + ['thou', 'thy', 'thine', 'thus', 'thee', 'may']
 punc = ['.', ',', '()', ';', ':']
 
