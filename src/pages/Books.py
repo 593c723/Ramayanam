@@ -19,13 +19,25 @@ style = "<style>h2,p, h1, .iframe, h3 {text-align: center;}  h3 {font-size: 20px
 st.markdown(style, unsafe_allow_html=True)
 
 st.sidebar.markdown('''
-## Books View
-## Chapter View
-- [Plot-Evolution](#evolution-characters)
-- [Cantos](#pick-a-canto)                   
-<p>Hi dsblia</p>
-''', unsafe_allow_html=True)
 
+## Hey There!
+- <a href="https://jignyasa.streamlit.app/~/+/#swagatam" target="_self">Introduction </a>
+## Books View
+- <a href="https://jignyasa.streamlit.app/~/+/#centralities" target="_self">Centralities </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#network" target="_self">Networks </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#summary-kcore" target="_self">K-Core </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#ask-the-network" target="_self">Nodes - Characters </a>
+
+## Chapter View
+- <a href="http://localhost:8501/Chapters#evolution-characters" target="_self">Plot Evolution </a>
+- <a href="http://localhost:8501/Chapters#pick-a-canto" target="_self">Cantos </a>
+-------
+<p style="font-size:18px;">Got Questions? Criticism? Feedback? Wanna Collaborate? 
+                    Chat about mutual interests? Feel free to reach out to me!</p>
+
+- [LinkedIn](https://www.linkedin.com/in/sumana-sridharan/)                  
+- [sumanasridharan@gmail.com](sumanasridharan@gmail.com)             
+''', unsafe_allow_html=True)
 
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)

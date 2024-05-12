@@ -56,19 +56,24 @@ my_chaps = all_cantos_dict[boo] # all chaps in given boo my_book
 book_start = all_chapters.index(my_chaps[0])
 book_end = all_chapters.index(my_chaps[len(my_chaps)-1])# last chptr
 
+
 st.sidebar.markdown('''
+
 ## Hey There!
-- [Introduction]()
+- <a href="https://jignyasa.streamlit.app/~/+/#swagatam" target="_self">Introduction </a>
 ## Books View
-- [Centralities]()
-- [Networks]()
-- [K-Core]()
-- [Nodes - Characters]()
+- <a href="https://jignyasa.streamlit.app/~/+/#centralities" target="_self">Centralities </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#network" target="_self">Networks </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#summary-kcore" target="_self">K-Core </a>
+- <a href="https://jignyasa.streamlit.app/~/+/#ask-the-network" target="_self">Nodes - Characters </a>
+
 ## Chapter View
-- [Plot-Evolution](http://localhost:8501/Chapters#evolution-characters)
-- [Cantos](http://localhost:8501/Chapters#pick-a-canto) 
+- <a href="http://localhost:8501/Chapters#evolution-characters" target="_self">Plot Evolution </a>
+- <a href="http://localhost:8501/Chapters#pick-a-canto" target="_self">Cantos </a>
 -------
-Got Questions? Criticism? Feedback? Wanna Collaborate? Chat about mutual interests? Feel free to reach out to me!
+<p style="font-size:17px; text-align: center;">Got Questions? Criticism? Feedback? Wanna Collaborate? 
+                    Chat about mutual interests? Feel free to reach out to me!</p>
+
 - [LinkedIn](https://www.linkedin.com/in/sumana-sridharan/)                  
 - [sumanasridharan@gmail.com](sumanasridharan@gmail.com)             
 ''', unsafe_allow_html=True)
