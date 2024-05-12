@@ -22,6 +22,7 @@ st.markdown(style, unsafe_allow_html=True)
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent)
 
+st.write(sys.path)
 
 graphs = books.get_graphs()
 partitions = books.get_partitions(graphs)
