@@ -1,3 +1,6 @@
+Include/
+etc/
+.pyvenv.cfg
 trash/
 .ToC.md 
 .thoughts.md
