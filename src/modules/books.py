@@ -226,8 +226,8 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
     plt.yticks(np.arange(0.0, 1.0, 0.1))
     plt.xticks(np.arange(1, 6, 1))
     try:
-        path = "/tmp/"
+        path = "/tmp/pages"
         plt.savefig(f"{path}/centrality.png")
     except:
-        path = ""
+        path = "pages"
         plt.savefig(f"{path}/centrality.png")
