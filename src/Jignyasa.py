@@ -2,8 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from modules import components as comp
-from  modules import books
-from modules import cantos
 
 from PIL import Image
 
