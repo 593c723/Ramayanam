@@ -62,8 +62,9 @@ def get_partitions(graphs):
         # Find modularity
         part = plc.best_partition(G)
         partitions.append(part) # returns dict = node: cluster
-        mod = plc.modularity(part,G)
+        # mod = plc.modularity(part,G)
     return partitions
+
 def girvan_newman(graphs):
     partitions = []
     for i in range(7):
@@ -88,6 +89,7 @@ def sem_color(val):
     if val == 0.05:
         color = 'yellow'
     return color
+
 def sent_clusts(graphs, partitions): #set colors for graphs, returns themes
     # sets colors(node, edges), calcs theme(ie., sentiment aggregate for each relation)
     theme = [] #pos, neg tuple for each book
@@ -118,6 +120,44 @@ def sent_clusts(graphs, partitions): #set colors for graphs, returns themes
             graph.edges[(source, target)]['color'] = emap[((source, target))]
         theme.append((pos, neg))
     return theme
+
+def get_theme(themes, book): #sent_clusts() object, book no.
+    pos = themes[book][0]
+    neg = themes[book][1]
+    if pos > neg:
+        th = 'Positive'
+    else:
+        th = 'Negative'
+    posp = (pos/(pos+neg))*100
+    negp = (neg/(pos+neg))*100
+    return th, posp, negp
+
+def get_network(graph): #graphs[n] element for nth graph
+    nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
+    nt.repulsion(
+                # node_distance=420,
+                # central_gravity=0.50,
+                # spring_length=80,
+                # spring_strength=0.30,
+                damping=0.98
+                       )
+    nt.from_nx(graph)
+    # nt.show('g3.html', notebook=False)
+    try:
+        path = '/tmp'
+        nt.save_graph(f'{path}/netvis.html')
+        HtmlFile = open(f'{path}/netvis.html', 'r', encoding='utf-8')
+    except:
+#local
+        nt.save_graph('../outputs/netvis.html')    
+        HtmlFile = open(f'../outputs/netvis.html', 'r', encoding='utf-8')
+    return HtmlFile
+
+def get_kcore(graph, k):
+    kcore = nx.k_core(graph, k)
+    return kcore
+
+
 
 """Centralities - two actionable funcitons: ranks list and character spread over books"""
 
@@ -187,43 +227,7 @@ def gen_centrality_plot(centralities):#ip dict of centralities of all books
     plt.xticks(np.arange(1, 6, 1))
     try:
         path = "/tmp/"
-        plt.savefig(f"{path}centrality.png")
+        plt.savefig(f"{path}/centrality.png")
     except:
         path = ""
-        plt.savefig(f"{path}centrality.png")
-
-def get_network(graph): #graphs[n] element for nth graph
-    nt = Network(height="750px", width="100%", bgcolor="#222222", font_color="white", directed = False, filter_menu=False)
-    nt.repulsion(
-                # node_distance=420,
-                # central_gravity=0.50,
-                # spring_length=80,
-                # spring_strength=0.30,
-                damping=0.98
-                       )
-    nt.from_nx(graph)
-    # nt.show('g3.html', notebook=False)
-    try:
-        path = '/tmp'
-        nt.save_graph(f'{path}/netvis.html')
-        HtmlFile = open(f'{path}/netvis.html', 'r', encoding='utf-8')
-    except:
-#local
-        nt.save_graph('../outputs/netvis.html')    
-        HtmlFile = open(f'../outputs/netvis.html', 'r', encoding='utf-8')
-    return HtmlFile
-
-def get_kcore(graph, k):
-    kcore = nx.k_core(graph, k)
-    return kcore
-
-def get_theme(themes, book): #get_themes() object, book no.
-    pos = themes[book][0]
-    neg = themes[book][1]
-    if pos > neg:
-        th = 'Positive'
-    else:
-        th = 'Negative'
-    posp = (pos/(pos+neg))*100
-    negp = (neg/(pos+neg))*100
-    return th, posp, negp
+        plt.savefig(f"{path}/centrality.png")
