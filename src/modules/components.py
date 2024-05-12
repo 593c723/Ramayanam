@@ -104,9 +104,10 @@ def books_to_text(): # better dict keys
     f_df = Data_pre_proc.pre_proc(f_df)
 
     bs = [x for x in f_df["Book"].unique()]
-    text = []
+    
     dictofbooks = {}
     for i in range(len(bs)):
+        text = []
         # texts[i] = [rows["Text"] for idx, rows in f_df.iterrows() if(rows["Book"] == bs[i]) ]
         for idx, rows in f_df.iterrows():
             if rows["Book"] == bs[i]: #ie., text belongs to a certain book
