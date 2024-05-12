@@ -17,6 +17,7 @@ import sys
 dir = path.Path(__file__).abspath()
 sys.path.append(dir.parent.parent.parent)
 sys.path.append(dir.parent.parent)
+sys.path.append(dir.parent)
 
 def sys_path():
     return sys.path
