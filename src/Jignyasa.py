@@ -75,12 +75,11 @@ st.write("There are some things in life that try their best to be constants.")
 st.write("""The Ramayanam has been one such thing for me. A great epic passed down over the ages, 
          there are not many in India who haven’t heard its name. The fascination that 
          this story never fails to provoke in me is rooted in childish wonder - born of tales told 
-         in confidant tones, after much pleading and persuasion, furthered, by the encounters with 
+         in confidant tones, after much pleading and persuasion; furthered, by the encounters with 
          different versions; a fascination that evinced in me interest enough to try my hand at 
          comprehending the original Sanskrit version - an endeavour that has failed of yet to bear 
          any fruit but to elicit protracted annoyance at my own excruciatingly slow progress. """)
 st.write("""
-          
          I decided then, to employ something that I was more familiar with - something that was 
          sure to give me the results that had so far managed to evade me. I turned thus to my trusty 
          set of analytical tools - and what answers have they given me! 
