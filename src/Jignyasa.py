@@ -59,7 +59,7 @@ st.write("""
          sure to give me the results that had so far managed to evade me. I turned thus to my trusty 
          set of analytical tools - and what answers have they given me! 
          """)
-st.write("""I have compiled in this app, a few interactive visualisations that were the products of my analysis
+st.write("""I have compiled in this app, a few interactive visualisations that were the products of my analysis.
          I have had a lot of fun playing around with them, I hope you do too!""")
 
 st.write("""( [Here's](https://593c723-ramayanam-srcjignyasa-h045eg.streamlit.app/) 
