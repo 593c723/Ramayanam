@@ -52,8 +52,8 @@ st.write("""The Ramayanam has been one such thing for me. A great epic passed do
          this story never fails to provoke in me is rooted in childish wonder - born of tales told 
          in confidant tones, after much pleading and persuasion; furthered, by the encounters with 
          different versions; a fascination that evinced in me interest enough to try my hand at 
-         comprehending the original Sanskrit version - an endeavour that has failed of yet to bear 
-         any fruit but to elicit protracted annoyance at my own excruciatingly slow progress. """)
+         comprehending the original Sanskrit version - an endeavour that has failed as of yet to 
+         do anything but elicit a sense of protracted annoyance at my own excruciatingly slow progress. """)
 st.write("""
          I decided then, to employ something that I was more familiar with - something that was 
          sure to give me the results that had so far managed to evade me. I turned thus to my trusty 
@@ -62,9 +62,9 @@ st.write("""
 st.write("""I have compiled in this app, a few interactive visualisations that were the products of my analysis.
          I have had a lot of fun playing around with them, I hope you do too!""")
 
-st.write("""( [Here's](https://593c723-ramayanam-srcjignyasa-h045eg.streamlit.app/) 
+st.write("""( [Here's]() 
          a little something I wrote on the insights I worked out from the book. Feel free to check it out!)""")
-st.write("""(Go [here](https://593c723-ramayanam-srcjignyasa-h045eg.streamlit.app/) 
+st.write("""(Go [here]() 
          if you wanna get technical!)""")
 st.write("")
 st.write("Best,")
