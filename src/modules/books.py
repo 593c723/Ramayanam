@@ -183,6 +183,12 @@ def BtwCentrality(graphs):# weighted
         btw[i] = nx.betweenness_centrality(graphs[i], weight='Weight')
     return btw
 
+def EVCentrality(graphs):
+    pgr = {}
+    for i in range(1,len(graphs)):
+        pgr[i] = nx.eigenvector_centrality(graphs[i])
+    return pgr
+
 
 def top_n_central_nodes(book_no, graphs, centrality, n):
     #book_no = book i
