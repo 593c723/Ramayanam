@@ -6,3 +6,7 @@
 ## The what
 ## The Why
 ## The How
+- Link to app
+- Clone+run on local server dirn
+## Screenshots/working
+## Contr/res
