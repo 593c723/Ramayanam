@@ -21,18 +21,18 @@ st.markdown(style, unsafe_allow_html=True)
 st.sidebar.markdown('''
 
 ## Hey There!
-- <a href="https://jignyasa.streamlit.app/~/+/#swagatam" target="_self">Introduction </a>
+- <a href="https://ramayanam.streamlit.app/~/+/#swagatam" target="_self">Introduction </a>
 ## Books View
-- <a href="https://jignyasa.streamlit.app/~/+/Books#centralities" target="_self">Centralities </a>
-- <a href="https://jignyasa.streamlit.app/~/+/Books#network" target="_self">Networks </a>
-- <a href="https://jignyasa.streamlit.app/~/+/Books#summary-kcore" target="_self">K-Core </a>
-- <a href="https://jignyasa.streamlit.app/~/+/Books#ask-the-network" target="_self">Nodes - Characters </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Books#centralities" target="_self">Centralities </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Books#network" target="_self">Networks </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Books#summary-kcore" target="_self">K-Core </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Books#ask-the-network" target="_self">Nodes - Characters </a>
 
 ## Chapter View
-- <a href="https://jignyasa.streamlit.app/~/+/Chapters#evolution-characters" target="_self">Plot Evolution </a>
-- <a href="https://jignyasa.streamlit.app/~/+/Chapters#pick-a-canto" target="_self">Cantos </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Chapters#evolution-characters" target="_self">Plot Evolution </a>
+- <a href="https://ramayanam.streamlit.app/~/+/Chapters#pick-a-canto" target="_self">Cantos </a>
 -------
-<p style="font-size:17px; text-align: center;">Got Questions? Criticism? Feedback? Wanna Collaborate? 
+<p style="font-size:17px; text-align: center;">Got Questions? Criticism? Feedback? Wanna Collaborate or
                     Chat about mutual interests? Feel free to reach out to me!</p>
 
 - [LinkedIn](https://www.linkedin.com/in/sumana-sridharan/)                  
