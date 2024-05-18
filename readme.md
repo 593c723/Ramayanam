@@ -1,7 +1,6 @@
 # Jignyasa 
-### A Mathematical Tribute to the Ramayan
-
-[Jignyasa](https://jignyasa.streamlit.app/) is a statistical dive into the world of The Valmiki Ramayan - its sentiments, graphs and communities - built with python and deployed on streamlit.
+A Mathematical Tribute to The Ramayan
+- [Jignyasa](https://jignyasa.streamlit.app/) is a statistical dive into the world of The Valmiki Ramayan - its sentiments, graphs and communities - built with Python and deployed on Streamlit.
 ----------
 ## The what
 ## The Why
