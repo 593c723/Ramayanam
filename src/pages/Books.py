@@ -51,16 +51,15 @@ st.title('CENTRALITIES')
 st.subheader("""Normalised Centrality plots for different characters(refer legend below), over the six books""")
 
 
-col1, col2, col3, col4, col5 = st.columns([3,3,3,3,1])
+col1, col2, col3 = st.columns([3,3,1])
 col1.header('Degree')
 col2.header('Betweenness')
-col3.header('PageRank')
-col4.header("EigenVector")
-col5.write(" ")
-col5.subheader('Legend')
-col5.write(" ")
-col5.write(" ")
-col5.write(" ")
+col3.write(" ")
+col3.subheader('Legend')
+col3.write(" ")
+col3.write(" ")
+col3.write(" ")
+col3.write(" ")
 #centrality plots
 # arrange these horizontally
 # """Write a dropdown with node selections, to get list as input to display centrality ranks 
@@ -87,31 +86,11 @@ except:
     img = Image.open(f"{pth}centrality.png")
 col2.image(img)
 
-cents = books.PRCentrality(graphs)
-books.gen_centrality_plot(cents)
-try:
-    pth = "/tmp/"
-    img = Image.open(f"{pth}centrality.png")
-except:
-    pth = "pages/"
-    img = Image.open(f"{pth}centrality.png")
-col3.image(img)
-
-cents = books.EVCentrality(graphs)
-books.gen_centrality_plot(cents)
-try:
-    pth = "/tmp/"
-    img = Image.open(f"{pth}centrality.png")
-except:
-    pth = "pages/"
-    img = Image.open(f"{pth}centrality.png")
-col4.image(img)
-
 try:
     labels = Image.open('src/legends.png')
 except:
     labels = Image.open('legends.png')
-col5.image(labels)
+col3.image(labels)
 # #book-spcific data
 # # is a slider the best option?
 
