@@ -62,10 +62,10 @@ st.write("""
 st.write("""I have compiled in this app, a few interactive visualisations that were the products of my analysis.
          I have had a lot of fun playing around with them, I hope you do too!""")
 
-st.write("""( [Here's]() 
-         a little something I wrote on the insights I worked out from the book. Feel free to check it out!)""")
-st.write("""(Go [here]() 
-         if you wanna get technical!)""")
+# st.write("""( [Here's]() 
+#          a little something I wrote on the insights I worked out from the book. Feel free to check it out!)""")
+# st.write("""(Go [here]() 
+#          if you wanna get technical!)""")
 st.write("")
 st.write("Best,")
 st.write("Sumana")
