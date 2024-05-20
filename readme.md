@@ -4,7 +4,7 @@ A Mathematical Tribute to The Ramayan
 - Find the analysis and insights in [this article](https://medium.com/@sumanasridharan/of-epics-networks-and-bots-79f48cdd3c3f).
 ----------
 ## The what
-> Books are rich sources of textual data, astounding in their complexity. They might be infinite storehouses of wisdom and knowledge, informing their reader of the universe and beyond, or might spin tales of far-away lands and times long past, crafting entire worlds with nothing but words. Leveraging statistics, some basic math and a couple of algorithms can provide a different perspective that can go a long way in offering a glimpse into these worlds.
+Books are rich sources of textual data, astounding in their complexity. They might be infinite storehouses of wisdom and knowledge, informing their reader of the universe and beyond, or might spin tales of far-away lands and times long past, crafting entire worlds with nothing but words. Leveraging statistics, some basic math and a couple of algorithms can provide a different perspective that can go a long way in offering a glimpse into these worlds.
 > Contents
 1) Pre-Processing the Data
 2) Exploratory Analysis with NLTK:
@@ -16,9 +16,6 @@ A Mathematical Tribute to The Ramayan
 5) Directed and Undirected Graphs
 6) Sentiment Analysis 
 - Polarities with VADER
-- Polarities with DistilBert
-  - Sequence Classification
-  - Tokenisation
 7) NetworkX graph construction
 8) Visualisation with pyVis
 9) Centralities:
