@@ -6,39 +6,39 @@ A Mathematical Tribute to The Ramayan
 ## The what
 > Books are rich sources of textual data, astounding in their complexity. They might be infinite storehouses of wisdom and knowledge, informing their reader of the universe and beyond, or might spin tales of far-away lands and times long past, crafting entire worlds with nothing but words. Leveraging statistics, some basic math and a couple of algorithms can provide a different perspective that can go a long way in offering a glimpse into these worlds.
 > Contents
-- Pre-Processing the Data
-- Exploratory Analysis with NLTK:
-1) Wordcloud
-2) Concordance
-3) Dispersion Plots
-- Plotting Character Presence
-- Character Networks
-- Directed and Undirected Graphs
-- Sentiment Analysis 
-1) Polarities with VADER
-2) Polarities with DistilBert
+1) Pre-Processing the Data
+2) Exploratory Analysis with NLTK:
+  - Wordcloud
+  - Concordance
+  - Dispersion Plots
+3) Plotting Character Presence
+4) Character Networks
+5) Directed and Undirected Graphs
+6) Sentiment Analysis 
+- Polarities with VADER
+- Polarities with DistilBert
   - Sequence Classification
-- Tokenisation
-- NetworkX graph construction
-- Visualisation with pyVis
-- Centralities:
-1) Degree
-2) Betweenness
-- K-Cores
-- Deployment with streamlit
+  - Tokenisation
+7) NetworkX graph construction
+8) Visualisation with pyVis
+9) Centralities:
+- Degree
+- Betweenness
+10) K-Cores
+11) Deployment with streamlit
 
 ## The How
 - For a quick view of the project, find the Streamlit Deployment [here](https://ramayanam.streamlit.app/).
 - To run the app on your local server, get started like so.
 1) Clone the project
-'''
+```
 git clone
-'''
+```
 2) Open cmd and from the root of the project folder, navigate to the streamlit source folder - /src/
 3) Run the app
-'''
+```
 streamlit run Jignyasa.py
-'''
+```
 ## Screenshots/working
 ![image](https://github.com/su-mana-s/Ramayanam/assets/98222724/e6e291ff-090f-4a89-8a03-10004f516a4e)
 
