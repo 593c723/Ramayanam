@@ -5,7 +5,7 @@ A Mathematical Tribute to The Ramayan
 ----------
 ## The what
 Books are rich sources of textual data, astounding in their complexity. They might be infinite storehouses of wisdom and knowledge, informing their reader of the universe and beyond, or might spin tales of far-away lands and times long past, crafting entire worlds with nothing but words. Leveraging statistics, some basic math and a couple of algorithms can provide a different perspective that can go a long way in offering a glimpse into these worlds.
-> Contents
+The Project:
 1) Pre-Processing the Data
 2) Exploratory Analysis with NLTK:
   - Wordcloud
