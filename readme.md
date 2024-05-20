@@ -24,18 +24,21 @@ Books are rich sources of textual data, astounding in their complexity. They mig
 10) K-Cores
 11) Deployment with streamlit
 
-## The How
+## Quick Start
 - For a quick view of the project, find the Streamlit Deployment [here](https://ramayanam.streamlit.app/).
 - To run the app on your local server, get started like so.
 1) Clone the project
 ```
-git clone
+git clone https://github.com/su-mana-s/Ramayanam.git
 ```
-2) Open cmd and from the root of the project folder, navigate to the streamlit source folder - /src/
+2) Open command line and navigate to the project folder streamlit source folder - Ramayanam/src/
+```
+cd Ramayanam/src
+```
 3) Run the app
 ```
 streamlit run Jignyasa.py
 ```
-## Screenshots/working
+## The App
 ![image](https://github.com/su-mana-s/Ramayanam/assets/98222724/e6e291ff-090f-4a89-8a03-10004f516a4e)
 
