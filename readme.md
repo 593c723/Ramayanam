@@ -40,5 +40,5 @@ cd Ramayanam/src
 streamlit run Jignyasa.py
 ```
 ## The App
-![image](https://github.com/su-mana-s/Ramayanam/assets/98222724/e6e291ff-090f-4a89-8a03-10004f516a4e)
+![Streamlti Clud Deployment](https://github.com/su-mana-s/Ramayanam/assets/98222724/e6e291ff-090f-4a89-8a03-10004f516a4e)
 
